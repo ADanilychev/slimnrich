@@ -1,0 +1,79 @@
+.profile-badge {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    &__left-side {
+        position: relative;
+        width: min-content;
+
+        .premium-icon {
+            position: absolute;
+            z-index: 1;
+            right: 0px;
+            top: 0px;
+        }
+
+        span {
+            width: 25px;
+            height: 25px;
+            background: #ffffff;
+            border: 0.5px solid #ddddff;
+            position: absolute;
+            bottom: 0;
+            right: 0px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9375rem;
+            font-weight: 700;
+            color: #7300e5;
+        }
+    }
+
+    &__avatar {
+    }
+
+    &__right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    &__username {
+        color: #322b34;
+        font-size: 1.5rem;
+        font-weight: 800;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    &__edit,
+    &__report,
+    &__profile-link {
+        text-decoration: underline;
+        color: #7300e5;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    &__report {
+        color: var(--red-500);
+    }
+
+    &__profile-link {
+        color: #ff3760;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}

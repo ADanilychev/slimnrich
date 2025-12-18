@@ -1,0 +1,73 @@
+.calendar-ui {
+    &__month {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &-name {
+            color: #181818;
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+        &-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-button {
+            width: 30px !important;
+            height: 30px !important;
+            min-height: inherit !important;
+            border-radius: 50% !important;
+        }
+
+        .button {
+            width: inherit;
+        }
+    }
+
+    &__day {
+        background-color: #f7f7f7;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: #181818;
+        font-size: 1rem;
+        font-weight: 400;
+        cursor: pointer;
+        transition: 0.3s all;
+
+        &_weekend {
+            color: #ec2a4d;
+        }
+
+        &_other {
+            opacity: 0.5;
+            cursor: default;
+        }
+
+        &_selected {
+            transition: 0.3s all;
+            background-color: var(--blue-300);
+        }
+
+        &_start,
+        &_end {
+            transition: 0.3s all;
+            background-color: var(--blue-700);
+            color: #fff;
+            opacity: 1;
+        }
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 10px;
+    }
+}

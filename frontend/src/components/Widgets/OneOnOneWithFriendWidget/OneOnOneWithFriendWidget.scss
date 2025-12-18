@@ -1,0 +1,70 @@
+.one-on-one-with-friend-widget {
+    .base-battle-widget__content {
+        display: flex;
+        gap: 0;
+    }
+
+    .base-battle-widget__controls {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .button.stroke button {
+            background-color: #ffe2e4;
+            border-color: var(--red-500);
+            color: var(--red-500);
+        }
+
+        .button.transparent button {
+            color: var(--red-500);
+            text-decoration: underline;
+        }
+    }
+
+    &__top {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .user-frame span {
+            width: 16px;
+            height: 16px;
+            font-size: 0.625rem;
+        }
+    }
+
+    &__vs {
+        text-transform: uppercase;
+        font-size: 1.125rem;
+        font-weight: 800;
+        background-image: linear-gradient(to right, #8e00e5, #ff6b00);
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    &__row {
+        border-top: 2px solid var(--blue-300);
+        width: 100%;
+        padding: 17px 0;
+
+        p {
+            color: var(--blue-600);
+            font-size: 0.875rem;
+            line-height: 20px;
+            font-weight: 600;
+
+            b {
+                color: var(--blue-800);
+                font-size: 1rem;
+            }
+        }
+    }
+
+    #cancelBattle button {
+        height: 40px;
+    }
+}

@@ -1,0 +1,11 @@
+.photo-showcase-badge {
+    .badge__content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .active button {
+            height: 50px;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.other-statistics-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: var(--blue-100);
+    border: 1px solid var(--blue-600);
+    padding: 10px 13px;
+    box-sizing: border-box;
+    gap: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+
+    &__image {
+        position: relative;
+
+        .prem-battle {
+            position: absolute;
+            top: 0px;
+            right: 0;
+        }
+    }
+
+    &__name {
+        width: 100%;
+
+        p {
+            font-weight: 700;
+            font-size: 0.625rem;
+            line-height: 14px;
+            text-align: center;
+        }
+    }
+
+    &__progress {
+        width: 100%;
+    }
+
+    .battle-statistics-progress__top {
+        text-align: center;
+    }
+}

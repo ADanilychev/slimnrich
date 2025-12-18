@@ -1,0 +1,21 @@
+.control-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &__ico {
+        width: 30px;
+        height: 30px;
+        background: #ad71ff;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__text {
+        font-size: 1.25rem;
+        color: #322b34;
+        font-weight: 700;
+    }
+}

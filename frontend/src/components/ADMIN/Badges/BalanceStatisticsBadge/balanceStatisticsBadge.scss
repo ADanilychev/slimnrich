@@ -1,0 +1,90 @@
+.balance-statistics-badge {
+    .admin-badge__content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__top {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h1 {
+            font-size: 1rem;
+            color: #797979;
+            font-weight: 600;
+        }
+
+        h2 {
+            color: var(--blue-700);
+            font-size: 1.75rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+
+    &__types {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .type-item {
+            width: 100%;
+            height: 60px;
+            border-radius: 5px;
+            box-shadow: 0 4px 4px -4px #7300e54a;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 14px;
+            box-sizing: border-box;
+            border: 1px solid transparent;
+            cursor: pointer;
+
+            &_selected {
+                border: 1px solid var(--blue-700);
+            }
+
+            &__left {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                p {
+                    color: #322b34;
+                    font-weight: 600;
+                    font-size: 0.93rem;
+                    text-transform: capitalize;
+                }
+            }
+
+            &__right {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+                p {
+                    color: var(--blue-700);
+                    font-size: 1.25rem;
+                    font-weight: 700;
+                }
+
+                small {
+                    color: var(--blue-600);
+                    font-size: 0.875rem;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}

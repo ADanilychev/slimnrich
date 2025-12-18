@@ -1,0 +1,51 @@
+.admin-battle-item {
+    padding: 18px 12px;
+    border: 1px solid var(--blue-400);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        h3 {
+            font-size: 1.067rem;
+            font-weight: 700;
+            line-height: 21px;
+        }
+
+        div {
+            display: flex;
+            gap: 10px;
+        }
+    }
+
+    &__users {
+        font-weight: 500;
+        font-size: 0.68rem;
+        color: var(--gray-500);
+
+        b {
+            color: var(--green-500);
+            font-weight: 600;
+        }
+    }
+
+    &__status {
+        color: var(--blue-700);
+        font-weight: 500;
+        font-size: 0.68rem;
+        text-transform: capitalize;
+    }
+
+    &__right {
+        button {
+            font-size: 0.75rem;
+            font-weight: 600;
+            min-width: 100px;
+            min-height: 33px;
+        }
+    }
+}

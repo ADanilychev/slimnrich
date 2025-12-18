@@ -1,0 +1,58 @@
+.chat-editor {
+    background-color: var(--white-500);
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 4px #7300e50f;
+    height: 56px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    textarea {
+        width: 100%;
+        resize: none;
+        box-sizing: border-box;
+        border: none;
+        padding: 0 0 0 10px;
+        font-size: 0.875rem;
+        font-family:
+            ManropeFonts,
+            ManropeFonts Fallback;
+        outline: none;
+
+        &,
+        &::placeholder {
+            color: #a1a1a1;
+        }
+    }
+
+    .input-upload-file {
+        border: none;
+        background-color: transparent;
+        width: fit-content;
+        transition: 0.3s width;
+
+        &__pending {
+            width: 100%;
+            transition: 0.3s width;
+        }
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+        outline: none;
+        transition: 0.3s all;
+
+        &:disabled {
+            filter: grayscale(1);
+            opacity: 0.25;
+
+            transition: 0.3s all;
+        }
+    }
+}

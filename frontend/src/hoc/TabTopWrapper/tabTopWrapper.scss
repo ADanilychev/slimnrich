@@ -1,0 +1,15 @@
+.tab-top-wrapper {
+    background-color: #ebebff;
+    padding: 23px var(--page_padding);
+    border-radius: 0 0 15px 15px;
+    margin: 0 calc(var(--page_padding) * -1);
+    max-height: 120px;
+    min-height: 120px;
+    box-sizing: border-box;
+
+    h1 {
+        color: #322b34;
+        font-weight: 800;
+        font-size: 1.875rem;
+    }
+}

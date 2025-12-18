@@ -1,0 +1,22 @@
+.currency-badge {
+    background-color: #8000ff;
+    height: 25px;
+    border-radius: 100px;
+    min-width: 65px;
+
+    display: flex;
+    align-items: center;
+
+    &__info {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    p {
+        padding: 0 8px 0 5px;
+        width: 50%;
+        text-align: center;
+        color: #f4f4ff;
+        font-weight: 700;
+    }
+}

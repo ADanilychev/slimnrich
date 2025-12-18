@@ -1,0 +1,52 @@
+.base-input {
+    background: #f4f4ff;
+    border: 2px solid #cdcdcd;
+    border-radius: 5px;
+    height: 49px;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s all;
+
+    &__pre-icon {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    &__post-icon {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    input {
+        border: none;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        background-color: transparent;
+
+        &::placeholder {
+            color: var(--black-700);
+        }
+    }
+
+    &_lock,
+    &:has(input:focus) {
+        border-color: #7300e5 !important;
+        transition: 0.3s all;
+    }
+
+    &_error {
+        border-color: var(--error_color) !important;
+
+        &:has(input:focus) {
+            border-color: var(--error_color) !important;
+            transition: 0.3s all;
+        }
+    }
+}

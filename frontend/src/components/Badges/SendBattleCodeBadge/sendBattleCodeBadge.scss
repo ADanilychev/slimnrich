@@ -1,0 +1,59 @@
+.send-battle-code-badge {
+    .badge__header {
+        font-weight: 700;
+    }
+
+    .badge__content {
+        display: flex;
+        align-items: flex-end;
+        gap: 5px;
+        background-color: var(--blue-300);
+        border-radius: 15px;
+        margin: 0 calc(var(--page_padding) * -1) 0 calc(var(--page_padding) * -1);
+
+        .base-input {
+            width: fit-content;
+            flex: 1;
+            min-width: 250px;
+            border-radius: 100px;
+
+            input {
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 1.125rem;
+
+                &::placeholder {
+                    color: #cdcdcd;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .button.active {
+            min-width: 100px;
+            max-width: 390px;
+            flex: 1;
+        }
+
+        .button button,
+        .base-input {
+            height: 49px;
+        }
+    }
+
+    &__row {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 5px;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    &__title {
+        color: var(--blue-800);
+        font-weight: 600;
+        font-size: 0.875rem;
+    }
+}

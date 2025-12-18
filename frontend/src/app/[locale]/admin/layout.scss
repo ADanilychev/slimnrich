@@ -1,0 +1,16 @@
+.admin-layout {
+    height: calc(100svh - 66px);
+    overflow-y: scroll;
+    padding: 0 var(--page_padding);
+
+    .admin-page {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        margin: 0 calc(var(--page_padding) * -1);
+
+        .admin-page__content {
+        }
+    }
+}

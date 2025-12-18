@@ -1,0 +1,11 @@
+export const DURATION_BATTLE = [4, 5, 6, 7, 8, 9, 10];
+export type DURATION_BATTLE_TYPE = typeof DURATION_BATTLE;
+
+export const BATTLE_SLIMS = [
+    100, 300, 500, 700, 1000, 1200, 1500, 1800, 2100, 2500, 3000, 3500, 4000, 5000, 6000, 7000, 8000, 9000, 10_000,
+    20_000, 30_000, 50_000,
+];
+
+export const ZERO_BATTLE_SLIMS = [0, ...BATTLE_SLIMS];
+
+export type BATTLE_SLIMS_TYPE = typeof BATTLE_SLIMS;

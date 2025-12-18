@@ -1,0 +1,84 @@
+@use './_reset.scss';
+@use './_variables.scss';
+@use './transition.scss';
+@use './_popup.scss';
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    background-color: #fff;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.hidden-scroll {
+    -ms-overflow-style: none; /* IE 10+ */
+    overscroll-behavior: none;
+
+    &::-webkit-scrollbar {
+        background: transparent;
+        display: none; // Safari and Chrome
+        -webkit-appearance: none;
+        width: 0;
+        height: 0;
+    }
+}
+
+.document-plate {
+    .text-block {
+        width: 100%;
+        line-height: 22px;
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            line-height: 30px;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            line-height: 26px;
+        }
+
+        h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            line-height: 26px;
+            margin-top: 10px;
+        }
+
+        p {
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            list-style: inside;
+            color: #838383;
+            li {
+                font-size: 0.875rem;
+            }
+        }
+
+        small {
+            font-size: 0.875rem;
+            color: #838383;
+            line-height: 21px;
+            display: block;
+            padding: 5px 0;
+
+            b {
+                font-weight: bold;
+            }
+        }
+    }
+}

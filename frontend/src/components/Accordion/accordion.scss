@@ -1,0 +1,36 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+
+    .accordion-item {
+        padding: 15px 0;
+
+        &:not(:last-child) {
+            border-bottom: 1px solid var(--gray-400);
+        }
+
+        &__title {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                color: var(--blue-700);
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+
+        &__content {
+            margin-top: 10px;
+            overflow: hidden;
+
+            p {
+                color: #838383;
+                font-weight: 500;
+                line-height: 22px;
+                font-size: 1rem;
+            }
+        }
+    }
+}

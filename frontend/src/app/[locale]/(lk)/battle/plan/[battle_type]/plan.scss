@@ -1,0 +1,19 @@
+.myself-plan {
+    .tab-top-wrapper {
+        height: 80px;
+        min-height: 80px;
+    }
+    &__tabs {
+        position: absolute;
+        bottom: 0;
+        width: calc(100% - var(--page_padding) * 2) !important;
+    }
+
+    .battle-plan__content {
+        // margin-top: 30px;
+    }
+
+    .battle-plan__hint {
+        justify-content: flex-start;
+    }
+}

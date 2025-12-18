@@ -1,0 +1,37 @@
+.history-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid var(--gray-400);
+    }
+
+    &__info {
+        font-size: 0.875rem;
+        color: var(--black-700);
+        font-weight: 500;
+    }
+
+    &__block {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        p {
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        p:first-child {
+            color: var(--red-500);
+            font-weight: 600;
+        }
+
+        p:last-child {
+            color: #f77600;
+        }
+    }
+}

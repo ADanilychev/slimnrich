@@ -1,0 +1,97 @@
+.base-showcase {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+
+    background-color: #f4f4ff;
+    box-shadow: -4px 4px 5px 3px #7300e50f;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    &__image {
+        position: relative;
+        flex: 0.4;
+        height: 140px;
+        border-radius: 10px;
+        overflow: hidden;
+        max-width: 150px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: 0.7;
+
+        h4 {
+            color: #322b34;
+            font-weight: 700;
+            font-size: 1rem;
+            word-break: break-all;
+            display: -webkit-box;
+            -webkit-line-clamp: 2; /* Количество отображаемых строк */
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    }
+
+    &__date {
+        display: flex;
+        gap: 15px;
+        p {
+            color: var(--blue-700);
+            font-weight: 600;
+            font-size: 0.875rem;
+
+            b {
+                color: var(--black-700);
+                font-weight: 400;
+            }
+        }
+    }
+
+    &__description {
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* Количество отображаемых строк */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+
+        p {
+            font-weight: 400;
+            font-size: 0.8125rem;
+            color: #666666;
+            line-height: 20px;
+            word-break: break-all;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 5px;
+
+        .gift-button {
+            width: 100% !important;
+            min-width: 150px;
+        }
+
+        button {
+            height: 30px !important;
+            min-height: 30px !important;
+            font-weight: 600;
+            font-size: 0.8125rem;
+            background-color: #d4d4ff !important;
+            width: fit-content !important;
+            padding: 0 12px;
+            flex-shrink: 0;
+        }
+
+        #more-btn {
+            button {
+                width: 30px !important;
+                padding: 0;
+                border-width: 1px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,888 @@
+{
+    "WelcomePage": {
+        "selectLanguageButton": "Select language",
+        "title": "WELCOME",
+        "SubTitle": "Ready to get a personal weight loss plan?",
+        "Description": "Answer 16 questions and we will create a weight loss plan and profit calculation",
+        "Agree": "I agree to the",
+        "Privacy": "Privacy Policy",
+        "Terms": "Terms",
+        "Start": "Start!",
+        "And": "and",
+        "story1": {
+            "value": "1 day"
+        },
+        "story2": {
+            "value": "2 weeks",
+            "text": "Strict diet"
+        },
+        "story3": {
+            "value": "3 weeks",
+            "text": "Can't lose weight?"
+        },
+        "story4": {
+            "text": "Lacking motivation? Don't want to go on a strict diet and exhaust yourself with workouts?"
+        },
+        "story5": {
+            "text": "There is a way out! App <span>Slim</span>$N$<span>Rich</span>!"
+        },
+        "story6": {
+            "value": "3 weeks",
+            "text": "Results without diets and workouts!"
+        },
+        "Lenta": {
+            "First": {
+                "Name": "Sofia",
+                "text": "Lost <b>8 kg</b> and earned <b>$12,000</b>"
+            },
+            "Second": {
+                "Name": "Mark",
+                "text": "Lost <b>2 kg</b> and earned <b>$5,000</b>"
+            },
+            "Third": {
+                "Name": "Angela",
+                "text": "Lost <b>15 kg</b> and earned <b>$23,000</b>"
+            },
+            "Fourth": {
+                "Name": "Alive",
+                "text": "Lost <b>6 kg</b> and earned <b>$7,000</b>"
+            }
+        }
+    },
+    "PrivacyPage": {
+        "Title": "Privacy policy",
+        "Back": "Back"
+    },
+    "TermsPage": {
+        "Title": "Slim and Rich Terms and Conditions",
+        "Back": "Back"
+    },
+    "StepByStepTest": {
+        "Next": "Next",
+        "Back": "Back",
+        "Skip": "Skip",
+        "BMI": "Get a personal BMI!",
+        "TimeZone": "Your time zone is",
+        "Error": "<p>You have entered incorrect data.</p><p>Check the metric system and enter again.</p>",
+        "HeightInput": "Your height",
+        "WeightInput": "Your weight",
+        "Option": "Write your option"
+    },
+    "TestResult": {
+        "Title": "Your result",
+        "Subtitle": "You have a {type} mass index",
+        "Goal": "Set a goal!",
+        "Back": "Back"
+    },
+    "IntroductoryStories": {
+        "First": {
+            "Title": "By myself",
+            "Description": "Challenge yourself, set a desired result and strive for it. If you win, take the winnings, if you lose, you lose money"
+        },
+        "Second": {
+            "Title": "1 on 1 with friend",
+            "Description": "Challenge another player and fight him in a fair duel. If you win, take your winnings, if you lose, you lose your money"
+        },
+        "Third": {
+            "Title": "1 on 1",
+            "Description": "Challenge another player and fight him in a fair duel. If you win, take your winnings, if you lose, you lose your money"
+        },
+        "Fourth": {
+            "Title": "With your group",
+            "Description": "Challenge another player and fight him in a fair duel. If you win, take your winnings, if you lose, you lose your money"
+        },
+        "Fifth": {
+            "Title": "Group for time",
+            "Description": " Challenge another player and fight him in a fair duel. If you win, take your winnings, if you lose, you lose your money"
+        },
+        "Sixth": {
+            "Title": "Group by weight",
+            "Description": "Challenge another player and fight him by weight in a fair duel. In case of victory you take the winnings, in case of loss you lose money"
+        }
+    },
+    "Settings": {
+        "Accept": "Accept",
+        "Back": "Back",
+        "ChangeLanguage": {
+            "title": "Change the language"
+        },
+        "Units": {
+            "title": "Units of measurement settings"
+        },
+        "Support": {
+            "title": "Support and assistance"
+        },
+        "TimeZone": {
+            "title": "Change your time zone"
+        },
+        "Notifications": {
+            "title": "Setting up notifications",
+            "On": "On",
+            "Off": "Off"
+        },
+        "Rules": {
+            "title": "Rules for using the app",
+            "subTitle": "By reading the rules for using the application, you agree to the terms of use"
+        },
+        "Privacy": {
+            "title": "Privacy policy"
+        },
+        "GetMoney": {
+            "title": "Get money"
+        },
+        "DeleteAccount": {
+            "title": "Delete account"
+        }
+    },
+    "MenuNavigation": {
+        "Statistics": "Statistics",
+        "Battle": "Battle",
+        "Exchange": "Exchange",
+        "Profile": "Profile",
+        "GetMoney": "Get money"
+    },
+    "Badges": {
+        "AchievementsBadge": {
+            "Title": "Achievements",
+            "TitleLink": "View all"
+        },
+        "BalanceBadge": {
+            "Title": "Balance",
+            "TitleLink": "View all",
+            "SlimsCoin": "Slims coin",
+            "BonesCoin": "Bones coin",
+            "FrozenCoin": "Frozen coin"
+        },
+        "BalanceHistoryBadge": {
+            "Title": "Balance History",
+            "TitleLink": "View all",
+            "EmptyList": "The balance history is empty"
+        },
+        "BattleBadge": {
+            "Title": "Battle",
+            "TitleLink": "View all",
+            "EmptyList": "The battle history is empty"
+        },
+        "GiftsPostBadge": {
+            "GoBack": "Go back",
+            "Title": "Post gifts"
+        },
+        "GoalForWeekBadge": {
+            "Title": "Goal for the week"
+        },
+        "JoinBattleCodeBadge": {
+            "Title": "Join a friend in a battle",
+            "Description": "Enter the code your friend sent you",
+            "Error": "Couldn't find the battle"
+        },
+        "NotificationsBadge": {
+            "EmptyList": "Empty notifications",
+            "Tabs": {
+                "Photo": "Photo",
+                "Battle": "Battle",
+                "Referrals": "Referrals"
+            }
+        },
+        "PhotoShowcase": {
+            "LoadMore": "Load More",
+            "Tabs": {
+                "Scales": "Scales",
+                "Food": "Food",
+                "Lifestyle": "Lifestyle"
+            }
+        },
+        "PlayersInBattle": {
+            "Title": "Players in the battle",
+            "TotalPlayers": "Total players",
+            "YourWeight": "Your weight",
+            "ViewProfile": "View profile",
+            "ItsYou": "It's you"
+        },
+        "ProfileBadges": {
+            "EditProfile": "Edit profile",
+            "OpenProfile": "Open profile",
+            "SendReport": "Send report",
+            "GoBack": "Go back",
+            "UserBlock": " User block"
+        },
+        "SendBattleCodeBadge": {
+            "Title": "Send code to a friend",
+            "Success": "The code has been copied successfully",
+            "Copy": "Copy"
+        },
+        "StatisticsMonitoringBadge": {
+            "Current": "Current",
+            "Changes": "Changes",
+            "Average": "Average",
+            "Tabs": {
+                "Weeks": "Weeks",
+                "Months": "Months",
+                "Year": "Year",
+                "AllTimes": "All times"
+            }
+        },
+        "UserProfileStatisticBadge": {
+            "Title": "Profile statistics",
+            "InApp": "In the app",
+            "WeightLost": "Weight lost",
+            "CurrentWeight": "Current weight"
+        }
+    },
+    "BattleItem": {
+        "MainButton": {
+            "Active": "Active",
+            "ViewStatistic": "View statistic",
+            "Lost": "You lost. View statistics",
+            "Win": "You won. View statistics"
+        },
+        "Create": "Create a new battle",
+        "Join": "Join in battle",
+        "Enter": " Enter the opponent's waiting room",
+        "Waiting": "We are waiting for opponents..."
+    },
+    "BMIProgressBar": {
+        "Weight": "Weight",
+        "BMI": "BMI",
+        "Status": "Status",
+        "BMIList": {
+            "Exhaustion": "Exhaustion",
+            "Normal": "Normal",
+            "High": "High",
+            "Fatness": "Fatness"
+        }
+    },
+    "ChatComponents": {
+        "Placeholder": "Write your message"
+    },
+    "SellForm": {
+        "Amount": "Enter the amount of slims and enter the wallet",
+        "Receive": "You will receive",
+        "USDT": "USDT",
+        "EnterWallet": "Enter wallet USDT BSC20",
+        "Confirm": "Confirm"
+    },
+    "BuyForm": {
+        "Amount": "Amount for purchasing Slims and choice of currency",
+        "Receive": "You will receive",
+        "Buy": "Buy",
+        "Commission": "Fees may apply (BSC 1.9%)"
+    },
+    "SelectPayment": {
+        "Title": "Select a payment method",
+        "card": {
+            "title_buy": "Pay by card",
+            "title_sell": "Sell by card",
+            "subTitle_buy": "Waiting for payment 1 minute",
+            "subTitle_sell": "Waiting for withdrawal up to 24 hours"
+        },
+        "crypto": {
+            "title_buy": "Pay crypto",
+            "title_sell": "Sell by crypto",
+            "subTitle_buy": "Waiting for payment 5 minutes",
+            "subTitle_sell": "Waiting for withdrawal up to 24 hours"
+        }
+    },
+    "Header": {
+        "Close": "Close",
+        "Hint": {
+            "Accrual": {
+                "Title": "Accrual of Slims to the bonus account",
+                "Text": "<title>1. Daily data upload.</title><text>Every day you upload data, you earn extra Slims to your bonus account. Regularity is the key to success: don't miss a single day and collect the maximum amount of Slims in a week!</text><title>2. Weekly participation in battles.</title><text>Compete with your team and other participants every week. Every 10 weeks you will be able to earn the most Slims. Please note that only premium category battles are taken into account.</text><title>3. Inviting friends.</title><text>Every day you upload data, you earn extra Slims to your bonus account. Regularity is the key to success: don't miss a single day and collect the maximum amount of Slims in a week!</text><title>4. Bonus for the activity of invited people.</title><text>Receive 25% of all bonus Slims earned by each friend you invite. So, the more active your friend is, the more Slims will be in your bonus account.</text>"
+            },
+            "Premium": {
+                "Title": "Premium Subscription Features",
+                "Text": "<title>1. Exclusive battles.</title><text>A premium subscription opens access to extended battle functionality. The exception is personal challenges and battles with friends, which remain free.</text><title>2. Premium chat.</title><text>A special chat for premium users provides the opportunity to exchange experiences and support in a closed community. An exclusive opportunity to communicate with the founders of the project.</text><title>3. Achievement certificates.</title><text>Certificates will be available only to premium subscribers. Without a subscription, each certificate will cost $2, and the feature is currently in development.</text><title>4. Free profile changes.</title><text>Premium users can update their profile avatar or set a nickname without being charged.</text>"
+            },
+            "Airdrop": {
+                "Title": "Airdrop",
+                "Text": "<text>Each Slim accumulated on the bonus account becomes your ticket to participate. The more Slims on the account, the more significant your participation in the airdrop. The native SlimandRich token was created to share the project's success with its users, and 10% of the team's income is directed to support the token, ensure liquidity and develop staking.</text>"
+            }
+        }
+    },
+    "InviteFriends": {
+        "Title": "Invite friends",
+        "Hint": "Get 1000 slims to your bonus account for inviting a friend",
+        "Received": "Received",
+        "Invited": "Invited: <span>{count} friends</span>",
+        "Send": "Send an invitation"
+    },
+    "Notification": {
+        "NotificationBattle": {
+            "Successful": "Successful in the",
+            "Battle": "battle"
+        },
+        "NotificationPhoto": {
+            "Gives": "gives",
+            "Slims": "Slims"
+        },
+        "NotificationReferral": {
+            "Joined": "joined",
+            "Slims": "Slims"
+        }
+    },
+    "ReferralsTables": {
+        "Name": "Name",
+        "Date": "Date",
+        "Id": "ID",
+        "Reward": "Reward"
+    },
+    "ReportItem": {
+        "Reported": "Reported №{number}",
+        "Status": "Status",
+        "Date": "Date of access",
+        "approved": "approved",
+        "declined": "declined",
+        "consideration": "consideration"
+    },
+    "ShowcaseScales": {
+        "Сalory": "Сalory",
+        "Date": "Date",
+        "Got": "Got",
+        "Slims": "Slims",
+        "Gift": "Gift 10 Slims"
+    },
+    "StatisticTopInfo": {
+        "Lost": "Lost in a month",
+        "Total": "Total loss"
+    },
+    "TournamentGridWidget": {
+        "Title": "With your group",
+        "Time": "Closes",
+        "YourWeight": "Your weight",
+        "Bid": "Bid: <b>{amount} slims </b>",
+        "Duration": "Duration: <b> {weeks} weeks</b>",
+        "YouBet": "Your bet on the battle: <b> {amount} slims</b>",
+        "DurationBattle": " Duration of the battle: <b> {weeks} weeks</b>",
+        "Hint": "  The battle will start automatically on Monday, if you don't want to wait - click the button",
+        "Pay": "Pay for participation",
+        "Reject": "Reject",
+        "SuccessAccept": " You have accepted the battle, wait until the player starts the battle or on Monday the battle will start automatically",
+        "Start": "Start a battle",
+        "Cancel": "Cancel the battle",
+        "GridItem": {
+            "Weight": "Weight"
+        }
+    },
+    "OneOnOneWithFriendWidget": {
+        "Title": "1 on 1 with friends",
+        "Time": "Closes",
+        "YourWeight": "Your weight",
+        "FriendWeight": "Friend weight",
+        "Bet": "Your bet on the battle: <b> {amount} slims</b>",
+        "Duration": " Duration of the battle: <b>{weeks} weeks</b>",
+        "Pay": "Pay for participation",
+        "Reject": "Reject",
+        "Cancel": "Cancel the battle"
+    },
+    "MoneyReceivedWidget": {
+        "Title": "Money received"
+    },
+    "BattleOtherStatistics": {
+        "Title": "View statistics of other battles"
+    },
+    "BattleStatistics": {
+        "Title": "Statistics",
+        "OutOf": "out of"
+    },
+    "ByMySelfWidget": {
+        "Bid": "Bid",
+        "Continues": "It continues...",
+        "Lost": "You lost the battle...",
+        "Won": "You're great!",
+        "Accept": "Accept",
+        "Again": "Again"
+    },
+    "GroupForTimeWidget": {
+        "Bid": "Bid",
+        "Waiting": "Waiting for opponents...",
+        "Continues": "It continues...",
+        "Lost": "You lost the battle...",
+        "Won": "You're great!",
+        "Accept": "Accept",
+        "Again": "Again"
+    },
+    "GroupForWeightWidget": {
+        "Bid": "Bid",
+        "Waiting": "Waiting for opponents...",
+        "Continues": "It continues...",
+        "Lost": "You lost the battle...",
+        "Won": "You're great!",
+        "Accept": "Accept",
+        "Again": "Again"
+    },
+    "VsFriendWidget": {
+        "Bid": "Bid",
+        "Waiting": "Waiting for a friend...",
+        "Continues": "It continues...",
+        "Lost": "You lost the battle...",
+        "Won": "You're great!",
+        "View": "View profile",
+        "Create": "Create a new battle",
+        "Join": "Join in battle",
+        "YourWeight": "Your weight",
+        "FriendWeight": "Friend weight"
+    },
+    "VsOtherWidget": {
+        "Bid": "Bid",
+        "Waiting": "Finding an opponent...",
+        "Continues": "It continues...",
+        "Lost": "You lost the battle...",
+        "Won": "You're great!",
+        "View": "View profile",
+        "Accept": "Accept",
+        "Again": "Again",
+        "YourWeight": "Your weight",
+        "OtherWeight": "Other weight"
+    },
+    "WithYourGroupWidget": {
+        "Bid": "Bid",
+        "Waiting": "Finding an opponent...",
+        "Continues": "It continues...",
+        "Lost": "You lost the battle...",
+        "Won": "You're great!",
+        "View": "View profile",
+        "Create": "Create a new battle",
+        "Join": "Join in battle",
+        "YourWeight": "Your weight",
+        "FriendWeight": "Friend weight"
+    },
+    "BattleConfig": {
+        "bymyself": {
+            "Title": "By myself",
+            "Hint": "Single weight loss challenge. You choose how much weight you want to lose, how much money you are willing to bet and how long you want to lose weight. If the desired parameters do not exceed the norm, then the bet is made. The challenge lasts as long as you chose."
+        },
+        "onevsfriend": {
+            "Title": "1 on 1 with friends",
+            "Hint": "Paired challenge. You can choose to create a battle and invite a friend or join an already created battle. When creating a battle, you choose the amount you want to bet on, when joining a created battle, this is a fixed parameter that your friend chose. How much weight you need to lose is calculated based on your parameters. The challenge lasts 2 weeks. Winners are determined every week."
+        },
+        "onevsone": {
+            "Title": "1 on 1",
+            "Hint": "Paired challenge. You choose the amount you want to bet on. How much weight you need to lose is calculated based on your parameters. The challenge lasts 2 weeks. We select an opponent with suitable parameters for a fair dispute. Winners are determined every week."
+        },
+        "withyourgroup": {
+            "Title": "With your group",
+            "Hint": "Group challenge. You can choose to create a battle and invite friends or join an already created battle. When creating a battle, you choose the amount you want to bet on, when joining a created battle, this is a fixed parameter that your friend chose. How much weight you need to lose is calculated based on your parameters. The challenge lasts 2 weeks. Winners are determined every week."
+        },
+        "groupfortime": {
+            "Title": "Group for time",
+            "Hint": "Group challenge. You choose the amount you want to bet. How much to throw in is calculated based on your parameters. Opponents are selected according to the selected parameters. The challenge lasts 4 weeks. Winners are determined every week"
+        },
+        "groupbyweight": {
+            "Title": "Group by weight",
+            "Hint": "You choose the weight you want to lose in 1 week. You choose the amount you want to bet on. Opponents are selected according to the selected parameters. The challenge lasts 1 week."
+        }
+    },
+    "ChatTextarea": {
+        "Placeholder": "Enter message"
+    },
+    "Pages": {
+        "ProfilePage": {
+            "GetPrem": "Get premium"
+        },
+        "PremiumPage": {
+            "Success": "Premium successfully purchased!",
+            "Error": "Couldn't buy premium!",
+            "Title": "<h2>Buy premium and </h2><h2>get more features!</h2>",
+            "Back": "Back",
+            "Modes": "battle modes",
+            "diploma": "diploma",
+            "free": "Free",
+            "EditProfile": "edit profile",
+            "Current": "Current plan",
+            "Buy": "Buy",
+            "Chat": "Premium chat",
+            "slims": "slims",
+            "Monthly": "Monthly",
+            "Yearly": "Yearly",
+            "Plans": {
+                "basic-plan": {
+                    "name": "Basic plan"
+                },
+                "premium-plan": {
+                    "name": "Premium plan"
+                }
+            }
+        },
+        "JoinBattle": {
+            "TitleCustom": "Custom battle",
+            "TitleFriend": "Join a friend in a battle",
+            "SubTitle": "Here you can see all available battles and your statistics on them"
+        },
+        "BattlePage": {
+            "Title": "All battles",
+            "Subtitle": "Here you can see all available battles!"
+        },
+        "ExchangePage": {
+            "Title": "Exchange",
+            "Tabs": {
+                "Buy": "To buy",
+                "Sell": "To sell"
+            }
+        },
+        "GetMoneyPage": {
+            "Subtitle": "Get money information",
+            "Content": "<content><title>1. Log your weight daily</title><text>Log your weight every day in a row and earn <b>10 to 70 bonus Slims</b> daily, starting from day one.</text></content><content><title>2. Join battles every week</title><text>Join at least one paid battle every week, and earn <b>1,000 to 10,000 bonus Slims</b>, depending on your consistency.</text></content><content><title>3. Invite a friend</title><text>When your friend signs up and gets active, you’ll get <b>1,000 bonus Slims</b> .</text></content><content><title>4. Earn from referrals</title><text>You’ll also get <b>25% of all bonus Slims</b> your invited friends earn.</text></content><content><title>5. Upload food photos</title><text>Every time you upload a photo of your meal, you get <b>10 bonus Slims</b>.</text></content><content><title>6. Share your lifestyle</title><text>Post photos of your healthy (or not-so-healthy!) life, and earn <b>10 bonus Slims</b> each time.</text></content>",
+            "Back": "Back"
+        },
+        "SupportPage": {
+            "Subtitle": "Have a problem or need help? Write to us!",
+            "SupportTabs": {
+                "History": "History and status of reports",
+                "FAQ": "FAQ",
+                "Chat": "Start chat with support service >"
+            },
+            "ReportTabs": {
+                "All": "All",
+                "Consideration": "Consideration",
+                "Ended": "Ended"
+            },
+            "EmptyTab": "This tab is empty"
+        },
+        "ChatPage": {
+            "Title": "Support service",
+            "Subtitle": "Write in the chat and we will answer your questions",
+            "Assistant": "Assistant"
+        },
+        "NotificationsPage": {
+            "Title": "Notifications"
+        },
+        "AchievementsPage": {
+            "Title": "All achievements",
+            "Tabs": {
+                "All": "All",
+                "Completed": "Completed",
+                "Unfulfilled": "Unfulfilled"
+            },
+            "Back": "Back"
+        },
+        "BalanceHistoryPage": {
+            "Title": "Balance History",
+            "Tabs": {
+                "All": "All",
+                "Real": "Real",
+                "Bonus": "Bonus",
+                "Dates": "Dates"
+            },
+            "Show": "Show"
+        },
+        "ReferralsPage": {
+            "Title": "Invited referrals",
+            "TotalEarned": "Total earned",
+            "TotalInvited": "Total invited",
+            "Back": "Back",
+            "Users": "users",
+            "SendTitle": "Send an invitation link to a friend"
+        },
+        "PlanPage": {
+            "Title": "Your weight loss plan",
+            "YouReceive": "<p>You will receive:</p><p><b>{amount}</b> and lose <b>{goal}</b> in <b>{period} weeks</b></p>",
+            "Next": "Next",
+            "Create": "Create a battle"
+        }
+    },
+    "Modals": {
+        "CreateUniqueRepost": {
+            "Title": "Create a Unique Repost",
+            "Placeholder": "Enter the required text",
+            "AdminButton": "Generate with your own text",
+            "DefaultButton": "Use the default"
+        },
+        "SendUserReport": {
+            "Title": "Send a report on the user",
+            "Hint": " For example: The user violates the rules by indicating the wrong weight for 10/24 and 10/20",
+            "Send": "Send",
+            "Close": "Close",
+            "Thank": "Thank you!",
+            "TankDescription": "   We will review your request and correct the error. Thank you for helping us become better!",
+            "Placeholder": "Write the reason"
+        },
+        "SelectLanguageModal": {
+            "Title": "Select the language"
+        },
+        "PhotoGalleryModal": {
+            "Date": "Date",
+            "Calory": "Calory",
+            "Got": "Got: {amount} Slims",
+            "Gift": "Gift 10 Slims",
+            "Report": " Send report",
+            "TitlePlaceholder": "Title",
+            "AboutPlaceholder": "About",
+            "Close": "Close",
+            "Save": "Save change"
+        },
+        "NotUserPremium": {
+            "Title": "You don't have premium",
+            "Description": " This feature is only available to <b>premium users</b>, please <b>upgrade</b> to premium",
+            "Get": "Get premium",
+            "Cancel": "Cancel"
+        },
+        "NotEnoughMoney": {
+            "Title": "Not enough money",
+            "Description": " There are not enough funds on your balance to pay. Please <b>top up your balance</b> or<b>write off coins from your bonus balance</b>.",
+            "TopUp": "Top up balance",
+            "Cancel": "Cancel"
+        },
+        "NewAchievement": {
+            "Title": "You got a new achievement!",
+            "Yay": "Yay!"
+        },
+        "EditProfileNotAvailable": {
+            "Title": "Not enough money",
+            "Description": " There are not enough funds on your balance to pay. Please <b>top up your balance</b> or<b>write off coins from your bonus balance</b>.",
+            "GetPrem": "Get premium",
+            "Pay": "Pay 500 slims",
+            "Cancel": "Cancel"
+        },
+        "EditProfile": {
+            "Title": "Edit profile",
+            "Accept": "Accept",
+            "Cancel": "Cancel",
+            "InputPlaceholder": "Your name"
+        },
+        "DeleteAccount": {
+            "Title": "Are you sure you want to delete your account?",
+            "Yes": "Yes, delete account",
+            "Cancel": "Cancel"
+        },
+        "CancelBattle": {
+            "Title": "Are you sure you want to delete the battle?",
+            "No": "No",
+            "Yes": "Yes"
+        },
+        "BattleMotivation": {
+            "Title": "Your result!",
+            "Ok": "Ok",
+            "MOTIVATION_TEXT": {
+                "0": "Keep it up, you're the best.<br></br> At this rate, you'll reach your goal!",
+                "1": "Excellent result!<br></br> Your willpower is enviable.",
+                "2": "Great job!<br></br> Keep up the good work!"
+            }
+        },
+        "BattleCharity": {
+            "Title": "Your result!",
+            "SelectInputTitle": "Where do you want to donate if you lose?",
+            "MOTIVATION_TEXT": {
+                "0": "Keep it up, you're the best.<br></br> At this rate, you'll reach your goal!",
+                "1": "Excellent result!<br></br> Your willpower is enviable.",
+                "2": "Great job!<br></br> Keep up the good work!"
+            },
+            "LIST": {
+                "Cat Relief Fund": "Cat Relief Fund",
+                "Dog Relief Fund": "Dog Relief Fund",
+                "Children's Aid Fund": "Children's Aid Fund",
+                "Donation to the developers": "Donation to the developers"
+            },
+            "Confirm": "Confirm",
+            "SuccessTitle": "Type successfully selected",
+            "SuccessDescription": "You are doing a good deed by sending your lost slims to charity, thank you!",
+            "Ok": "Ok"
+        },
+        "BanModal": {
+            "Title": "You have been banned",
+            "Description": " The end of the block <b>{time}</b>",
+            "Hint": " If you think the ban is unfair or if you have any special questions, please contact us by email:",
+            "Ok": "Ok"
+        },
+        "NotSupport": {
+            "Title": "The PC platform is not supported",
+            "Description": "Please log in to the app from your mobile device",
+            "Ok": "Ok"
+        }
+    },
+    "BattleProgress": {
+        "StartRight": "Start right away",
+        "Continues": "It continues",
+        "Loss": "Loss",
+        "Complited": "Complited",
+        "Waiting": "Waiting for people",
+        "StartEndText": "start {start} end {end}",
+        "Bid": "Bid"
+    },
+    "InputWebCam": {
+        "Placeholder": "Click to upload photo",
+        "Loading": "Loading...",
+        "Cancel": "Cancel"
+    },
+    "Popups": {
+        "RecordWeightPopup": {
+            "Title": "Weight loss photos",
+            "Status": "You have already recorded your results today, we are waiting for you tomorrow",
+            "Ok": "Ok",
+            "Scales": "Scales",
+            "Weight": "Weight",
+            "About": "About",
+            "Accept": "Accept",
+            "Received": "You received {bonus} <image></image> Slims!",
+            "Result": "You lost <b> {lost}</b>. Now your weight is <b> {weight}</b>.",
+            "LostTrue": "Keep it up, you're the best.<br></br>At this rate, you'll reach your goal!",
+            "LostFalse": "Today didn't work out. Don't let go, tomorrow everything will work out."
+        },
+        "PhotoFoodPopup": {
+            "Title": "Photo food",
+            "Status": "You regularly uploaded photos of your diet. You are great!",
+            "Received": "You received {bonus} <image></image> Slims!",
+            "Ok": "Ok",
+            "Food": "Food",
+            "Time": "Time",
+            "Calory": "Calory",
+            "About": "About",
+            "Send": "Send and receive 10 Slims",
+            "Breakfast": "Breakfast",
+            "Lunch": "Lunch",
+            "Dinner": "Dinner",
+            "Snack": "Snack"
+        },
+        "PhotoLifestylePopup": {
+            "Title": "Photo lifestyle",
+            "Status": "You regularly uploaded photos of your diet. You are great!",
+            "Received": "You received {bonus} <image></image> Slims!",
+            "Ok": "Ok",
+            "Life": "Life",
+            "TitleText": "Title",
+            "About": "About",
+            "Send": "Send and receive 10 Slims"
+        }
+    },
+    "ElementHint": {
+        "Skip": "Skip all",
+        "Finish": "Finish",
+        "Next": "Next",
+        "Tutorial": "Tutorial"
+    },
+    "SendGiftSuccess": "The gift was sent successfully",
+    "ValidateWeightBase": {
+        "Max": "Max",
+        "Min": "Min",
+        "Error": "The BMI is too small.  Further weight loss is not recommended"
+    },
+    "CreateBattle": {
+        "ByMyself": {
+            "Title": "By myself",
+            "SubTitle": "Enter your weight loss period and desired weight",
+            "DesiredWeight": "Desired weight",
+            "Deadline": "Deadline for losing weight",
+            "Weeks": "weeks",
+            "Slims": "slims",
+            "YourBet": "Your bet on the battle:",
+            "Pay": "Pay for participation",
+            "Back": "Back",
+            "LessWeight": "The weight should not be less than {minWeight}"
+        },
+        "GroupByWeight": {
+            "Title": "Group by weight",
+            "SubTitle": "Enter your details and challenge!",
+            "Description": "The application contains paid features, you must be of legal age",
+            "YourBet": "Your bet on the battle:",
+            "Weeks": "weeks",
+            "Slims": "slims",
+            "DesiredWeight": "Desired weight percentage",
+            "Duration": "Duration of the battle:",
+            "GetPlan": "Get a weight loss plan",
+            "Back": "Back"
+        },
+        "GroupForTime": {
+            "Title": "Group for time",
+            "SubTitle": "Enter your details and challenge!",
+            "Description": "The application contains paid features, you must be of legal age",
+            "YourBet": "Your bet on the battle:",
+            "Duration": "Duration of the battle:",
+            "Slims": "slims",
+            "Weeks": "weeks",
+            "Pay": "Pay for participation",
+            "Back": "Back"
+        },
+        "OneOnOne": {
+            "Title": "1 on 1",
+            "SubTitle": "Enter your details and challenge!",
+            "Description": "The application contains paid features, you must be of legal age",
+            "YourBet": "Your bet on the battle:",
+            "Slims": "slims",
+            "Weeks": "weeks",
+            "Duration": "Duration of the battle:",
+            "Pay": "Pay for participation",
+            "Back": "Back"
+        },
+        "OneOnOneWithFriend": {
+            "Title": "1 on 1 WITH FRIENDS",
+            "SubTitle": "Create a new battle to play with a friend",
+            "Description": "The application contains paid features, you must be of legal age",
+            "YourBet": "Your bet on the battle:",
+            "Slims": "slims",
+            "Weeks": "weeks",
+            "Duration": "Duration of the battle:",
+            "Pay": "Pay and create battle",
+            "Back": "Back"
+        },
+        "WithYourGroup": {
+            "Title": "With your group",
+            "SubTitle": "Enter your details and challenge!",
+            "Description": "The application contains paid features, you must be of legal age",
+            "YourBet": "Your bet on the battle:",
+            "Slims": "slims",
+            "Weeks": "weeks",
+            "Duration": "Duration of the battle:",
+            "Pay": "Pay for participation",
+            "Back": "Back"
+        }
+    },
+    "FAQ": {
+        "Accordion": {
+            "1": {
+                "Title": "1. Which battles are free to join?",
+                "content": "<div><small>You can join 1-on-1 battles with your friends for free.</small></div>"
+            },
+            "2": {
+                "Title": "2. When do battles start?",
+                "content": "<div><small>Solo battles start the next day. Duo battles begin the day after your team is formed. Group battles always start on Mondays.</small></div>"
+            },
+            "3": {
+                "Title": "3. Which battles can I join without Premium?",
+                "content": "<div><small>Without Premium, you can join battles against yourself or a friend.</small></div>"
+            },
+            "4": {
+                "Title": "4. How can I earn money here?",
+                "content": "<div><small>Stay active in the app:</small><ul><li>Join battles regularly</li><li>Log your weight daily</li><li> Invite friends and earn referral bonuses</li><li>Win group battles</li></ul><small>But the biggest reward? A healthier body and mind as you lose weight</small></div>"
+            },
+            "5": {
+                "Title": "5. How can I get free Slims?",
+                "content": "<div><small>Be active!</small><ul><li>Join weekly battles</li><li>Log your weight every day</li><li>Post photos of your meals</li><li>Share your health journey on SlimandRich</li></ul><small>Invite friends and get 25% of their lost Slims as a bonus.</small></div>"
+            },
+            "6": {
+                "Title": "6. What are Slims?",
+                "content": "<div><small>Slims are our in-app currency. You can use them to:</small><ul><li>Get Premium</li><li>Join battles</li><li>Collect winnings</li><li>Support charity</li><li>Reward other users</li></ul></div>"
+            },
+            "7": {
+                "Title": "7. How are results verified?",
+                "content": "<div><small>We trust our community. The best reward is real weight loss. But in group battles, users can help verify each other's results.</small></div>"
+            },
+            "8": {
+                "Title": "8. Why should I buy Slims?",
+                "content": "<div><small>To:</small><ul><li>Join earning-focused battles</li><li>Access Premium features</li><li>Reward others for their progress</li></ul></div>"
+            },
+            "9": {
+                "Title": "9. What am I paying for?",
+                "content": "<div><small>We provide powerful motivation to lose weight—alone or with others. And yes, you can earn real money by winning battles</small></div>"
+            },
+            "10": {
+                "Title": "10. Are there any restrictions?",
+                "content": "<div><small>Yes.</small><ul><li>Don't join battles if your BMI is under 18.5</li><li>You must be 18 or older to participate</li></ul></div>"
+            },
+            "11": {
+                "Title": "11. When should I upload results?",
+                "content": "<div><small>Every day!</small><small>We recommend doing it each morning for best tracking.</small></div>"
+            },
+            "12": {
+                "Title": "12. What’s the bonus balance for?",
+                "content": "<div><small>Your bonus balance can be used for anything in the app—except battles. In the future, we plan to launch a crypto token. Your bonus balance will affect your airdrop size. Earn bonuses by staying active and inviting friends.</small></div>"
+            },
+            "13": {
+                "Title": "13. How do I cash out Slims?",
+                "content": "<div><small>Go to the Exchange tab in the app and choose your preferred payout method.</small></div>"
+            },
+            "14": {
+                "Title": "14. How do I invite friends to my battles?",
+                "content": "<div><small>Send them your battle’s unique invite code—they’ll be able to join directly.</small></div>"
+            }
+        }
+    }
+}

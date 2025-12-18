@@ -1,0 +1,77 @@
+.exchange-coins-form {
+    background-color: var(--blue-200);
+    padding: 20px 16px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    .exchange-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        &__buttons {
+            display: flex;
+            gap: 5px;
+
+            .button.violet {
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                padding: 0;
+                flex-shrink: 0;
+            }
+        }
+
+        &__line {
+            display: flex;
+            width: 100%;
+            height: 2px;
+            background-color: var(--blue-400);
+        }
+
+        &__control {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            .button {
+                button {
+                    height: 60px;
+                }
+            }
+        }
+
+        &__info {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+
+        &__text {
+            font-size: 1rem;
+            color: var(--blue-900);
+            font-weight: 600;
+            line-height: 22px;
+        }
+
+        &__total {
+            color: var(--blue-900);
+            font-weight: 800;
+            font-size: 1.75rem;
+        }
+
+        &__commission {
+            color: var(--blue-700);
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.premium-page {
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-size: 1.875rem;
+            line-height: 40px;
+            color: var(--black-700);
+            font-weight: 800;
+
+            &:last-child {
+                background-image: linear-gradient(to right, #8e00e5, #ff6b00);
+                color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+            }
+        }
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    &__buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+    }
+
+    &__plans {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,31 @@
+.horizontal-bar-diagram-item {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        font-size: 0.775rem;
+        color: #818181;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        small {
+            padding: 4px 7px;
+            font-size: 0.875rem;
+
+            display: flex;
+            align-items: center;
+            color: white;
+            min-height: 26px;
+            box-sizing: border-box;
+        }
+    }
+
+    &__info {
+        color: 0.775rem;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,112 @@
+header {
+    background: #6604c7;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--page_padding);
+    z-index: 14;
+
+    .header-controls {
+        display: flex;
+        gap: 13px;
+        align-items: center;
+    }
+
+    .with-notifications {
+        background-color: #8000ff;
+        height: 25px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+        align-items: center;
+        padding: 0 7px 0 0;
+
+        &__info {
+            display: flex;
+            justify-content: space-between;
+            gap: 2px;
+            align-items: center;
+            margin-left: 3px;
+            user-select: none;
+            cursor: pointer;
+            font-weight: 700;
+            text-decoration: none;
+
+            p {
+                color: var(--blue-100);
+                font-size: 0.8125rem
+            }
+        }
+    }
+
+    .base-element-hint {
+        position: static;
+    }
+
+    .base-element-hint__modal-triangle {
+        left: auto;
+        right: 0;
+        transform: translate(-15%, -35px);
+    }
+
+    .base-element-hint__modal {
+        max-width: none;
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-height: calc(100vh - 145px);
+            overflow: scroll;
+            margin-top: 30px;
+
+            .header-hint__close {
+                position: absolute;
+                right: 20px;
+                top: 15px;
+                color: #b885ff;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+
+        .accordion-item {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            &:not(:last-child) {
+                padding-bottom: 10px;
+                border-bottom: 1px solid var(--gray-400);
+            }
+
+            &__title {
+                font-size: 1.125rem;
+                font-weight: 600;
+                color: var(--blue-700);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            .header-hint__title {
+                color: #545454;
+                font-weight: 700;
+                line-height: 22px;
+            }
+
+            .base-element-hint__modal-text {
+                color: #747474;
+                font-weight: 500;
+                line-height: 22px;
+            }
+        }
+    }
+
+    .base-element-hint__modal-buttons {
+        display: none;
+    }
+}

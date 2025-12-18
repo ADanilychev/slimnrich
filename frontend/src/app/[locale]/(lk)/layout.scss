@@ -1,0 +1,21 @@
+.lk {
+    height: 100dvh;
+
+    header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .button {
+        button {
+            height: 60px;
+        }
+    }
+
+    .lk-main,
+    .lk-battle {
+        padding: 0 var(--page_padding);
+    }
+}

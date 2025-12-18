@@ -1,0 +1,36 @@
+.plan-graph {
+    &__controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-weight: 500;
+            font-size: 1.125rem;
+        }
+
+        span {
+            background-color: var(--blue-100);
+            width: 37px;
+            height: 37px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+
+            transform: rotate(-90deg);
+
+            &:first-child {
+                transform: rotate(90deg);
+            }
+        }
+    }
+}
+
+.custom-tooltip {
+    p {
+        font-size: 1.125rem;
+        color: #322b34;
+        line-height: 25px;
+    }
+}

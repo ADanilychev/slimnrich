@@ -1,0 +1,56 @@
+.achievements-page {
+    .tab-top-wrapper {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    &__tabs {
+        position: absolute;
+        bottom: 0;
+        width: calc(100% - (var(--page_padding) * 2)) !important;
+    }
+
+    &__total {
+        line-height: 35px;
+
+        p {
+            color: var(--gray-500);
+            font-size: 1.25rem;
+            font-weight: 600;
+            vertical-align: bottom;
+
+            span {
+                color: var(--blue-700);
+            }
+        }
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        .achievement-swiper {
+            margin: 0 calc(var(--page_padding) * -1);
+
+            &__wrapper {
+                padding: 16px var(--page_padding) 0 var(--page_padding);
+            }
+        }
+        .button {
+            button {
+                height: 60px;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.menu-navigation {
+    height: 66px;
+    background: #ddddff;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: var(--default-menu-nav-z-index);
+
+    &__wrapper {
+        width: 100%;
+        padding: 14px;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        flex-shrink: 0;
+        text-decoration: none;
+
+        &_main {
+            position: relative;
+            width: 70px;
+            justify-content: flex-end;
+
+            .main-button-wrapper {
+                position: absolute;
+                top: -65px;
+
+                &__sub-wrapper {
+                }
+
+                &__sub-btn {
+                    width: 55px;
+                    height: 55px;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    background: #ddddff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    position: absolute;
+                }
+
+                &__main {
+                    background-color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-self: center;
+                    border: 5px solid #ddddff;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        p {
+            color: #b885ff;
+            font-weight: 600;
+            font-size: 0.75rem;
+        }
+
+        &_active {
+            svg path {
+                fill: #8000ff;
+            }
+
+            p {
+                color: #8000ff;
+            }
+        }
+    }
+
+    &__get-money {
+        height: 25px;
+        color: #00bd33 !important;
+        background-color: #bfffd0;
+        border-radius: 100px;
+        width: 100%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        padding: 0 8px;
+        border: 2px solid #00bd33;
+        text-decoration: none;
+        font-size: 0.625rem;
+        font-weight: 700;
+    }
+}

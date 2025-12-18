@@ -1,0 +1,68 @@
+.timezone-wrapper {
+    width: 100%;
+    position: relative;
+
+    &__input {
+        .base-input {
+            svg {
+                flex-shrink: 0;
+            }
+        }
+
+        .base-input,
+        input {
+            color: #322b34;
+            font-size: 1.125rem;
+        }
+    }
+
+    &__drop-list {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        background-color: #f4f4ff;
+        padding: 5px 14px;
+        box-sizing: border-box;
+        max-height: 340px;
+        overflow-y: scroll;
+        border-radius: 0 0 17px 17px;
+        display: none;
+        z-index: 2;
+
+        &_open {
+            display: block;
+        }
+
+        .drop-list__item {
+            padding: 14px 0;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            p {
+                font-weight: 600;
+                color: #322b34;
+                line-height: 17px;
+                font-size: 0.8125rem;
+                max-width: 75%;
+            }
+
+            svg {
+                margin-left: auto;
+                margin-right: 0;
+            }
+
+            &:not(:first-child) {
+                border-top: 1px solid #cdcdcd;
+            }
+
+            &_selected {
+                p {
+                    color: #7300e5;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.grid-item {
+    background-color: var(--blue-300);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    min-height: 35px;
+    box-sizing: border-box;
+    padding: 0 5px;
+
+    p {
+        font-weight: 600;
+        font-size: 0.625rem;
+
+        b {
+            color: var(--blue-800);
+        }
+    }
+}

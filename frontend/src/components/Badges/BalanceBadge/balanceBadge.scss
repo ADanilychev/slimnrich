@@ -1,0 +1,32 @@
+.balance-badge {
+    .badge__content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    &__currency {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .currency-text {
+            color: var(--black-700);
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .currency-badge {
+            height: 40px;
+            gap: 6px;
+
+            &__info {
+                display: none;
+            }
+
+            img {
+                transform: scale(1.7);
+            }
+        }
+    }
+}

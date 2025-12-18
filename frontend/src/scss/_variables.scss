@@ -1,0 +1,30 @@
+:root {
+    --btn_active: linear-gradient(270deg, #ff6b00 0%, #8e00e5 100%);
+    --btn_disabled: #cdcdcd;
+    --btn_var_3: #f77600;
+    --btn_var_4: #ffe5cc;
+    --main_btn_text_color: #7300e5;
+
+    --error_color: #da1e28;
+
+    --bg_light_color: #fff;
+
+    --page_padding: 17px;
+
+    --blue-100: #f4f4ff;
+    --blue-200: #ebebff;
+    --blue-300: #ddddff;
+    --blue-400: #bfbfff;
+    --blue-600: #ad71ff;
+    --blue-700: #8000ff;
+    --blue-800: #7300e5;
+    --blue-900: #6604c7;
+    --gray-400: #cdcdcd;
+    --gray-500: #999999;
+    --red-500: #da1e28;
+    --red-300: #ffbfc3;
+    --black-700: #322b34;
+    --white-500: #ffffff;
+    --green-500: #05c338;
+    --default-menu-nav-z-index: 13;
+}

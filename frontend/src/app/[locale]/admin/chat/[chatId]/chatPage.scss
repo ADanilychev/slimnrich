@@ -1,0 +1,49 @@
+.admin-chat-page {
+    height: 100%;
+
+    &__header {
+        height: 38px;
+        background: #5900b2;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0 var(--page_padding) 0 0;
+    }
+
+    &__info {
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    &__back {
+        cursor: pointer;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        border: none;
+        outline: none;
+        transition: 0.3s all;
+
+        &:active {
+            background: #6500ca;
+            transition: 0.3s all;
+        }
+    }
+
+    .admin-page__content {
+        position: relative;
+        height: calc(100% - 66px);
+        padding-bottom: 60px;
+        margin-top: 0;
+        padding: 0 var(--page_padding);
+
+        .wrapper-chat {
+            height: calc(100% - 55px);
+            padding-top: 0;
+        }
+    }
+}

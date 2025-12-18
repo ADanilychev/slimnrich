@@ -1,0 +1,58 @@
+.badge {
+    &__header {
+        height: 38px;
+        display: flex;
+        padding: 0 var(--page_padding);
+        align-items: center;
+        background-color: #ddddff;
+
+        border-radius: 15px 15px 0 0;
+
+        a,
+        .badge__black {
+            color: #7300e5;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            display: block;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        a {
+            margin-right: 0;
+            margin-left: auto;
+        }
+    }
+
+    &__title {
+        color: #322b34;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    &__score {
+        color: #999999;
+        font-size: 0.9375rem;
+        font-weight: 500;
+        margin-left: 10px;
+
+        span {
+            color: #7300e5;
+            font-weight: 700;
+        }
+    }
+
+    &__content {
+        padding: 16px var(--page_padding);
+        background-color: #ebebff;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+        border-radius: 0 0 15px 15px;
+    }
+}

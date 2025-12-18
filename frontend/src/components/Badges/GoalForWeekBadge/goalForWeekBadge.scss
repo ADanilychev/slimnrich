@@ -1,0 +1,67 @@
+.goal-for-week-badge {
+    .badge__content {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    &__month {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &-name {
+            font-weight: 800;
+            font-size: 1.0625rem;
+            color: var(--black-700);
+            text-align: center;
+        }
+
+        &-wrappers {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+        }
+
+        &-day {
+            width: 33px;
+            height: 33px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            color: var(--black-700);
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 50%;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+            &_current {
+                border: 2px solid var(--blue-800);
+                background-color: var(--blue-300);
+
+                img {
+                    display: none;
+                }
+            }
+
+            &_other {
+                opacity: 0.5;
+                cursor: default;
+            }
+
+            &_empty {
+                background-color: var(--red-300);
+            }
+
+            &_uploaded {
+                background-color: var(--blue-300);
+            }
+        }
+    }
+}

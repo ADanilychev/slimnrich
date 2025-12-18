@@ -1,0 +1,24 @@
+.profile-page {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+
+        margin: 17px calc(var(--page_padding) * -1) 0 calc(var(--page_padding) * -1);
+    }
+
+    &__premium {
+        margin: 0 calc(var(--page_padding) * 1);
+
+        .button button {
+            height: 60px;
+        }
+    }
+
+    &__controls {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

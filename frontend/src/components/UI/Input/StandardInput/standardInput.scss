@@ -1,0 +1,25 @@
+.standard-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    p {
+        font-size: 1rem;
+        color: #777777;
+        font-weight: 500;
+    }
+
+    .base-input {
+        border: none;
+        background: transparent;
+        border-radius: 0;
+        border-bottom: 2px solid var(--gray-500);
+        padding: 0;
+        height: 29px;
+
+        input {
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+    }
+}

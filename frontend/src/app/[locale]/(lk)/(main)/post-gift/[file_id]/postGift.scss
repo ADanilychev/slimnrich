@@ -1,0 +1,19 @@
+.post-gift-page {
+    &__top {
+        margin: 17px 0;
+
+        h1 {
+            color: var(--black-700);
+            font-weight: 800;
+            font-size: 1.875rem;
+        }
+    }
+
+    .main-content {
+        margin: 0 calc(var(--page_padding) * -1) 0 calc(var(--page_padding) * -1);
+    }
+
+    .user-frame__span {
+        display: none;
+    }
+}

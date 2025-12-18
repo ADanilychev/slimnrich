@@ -1,0 +1,36 @@
+.radio-button {
+    width: 100%;
+
+    input {
+        display: none;
+    }
+
+    label {
+        border: 2px solid #8000ff;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 14px 0;
+        color: #8000ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        transition: 0.3s all;
+        font-weight: 400;
+        font-size: 0.875rem;
+    }
+
+    input[type='radio']:checked + label,
+    input[type='checkbox']:checked + label {
+        background: #ddddff;
+        transition: 0.3s all;
+        // font-weight: 600;
+    }
+
+    &_disabled {
+        label {
+            border-color: #999999;
+            color: #999999;
+        }
+    }
+}

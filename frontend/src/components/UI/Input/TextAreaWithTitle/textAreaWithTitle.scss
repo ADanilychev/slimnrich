@@ -1,0 +1,35 @@
+.textarea-with-title {
+    width: 100%;
+
+    &__title {
+        color: #7300e5;
+        font-weight: 700;
+        font-size: 0.875rem;
+        margin-bottom: 8px;
+    }
+
+    &.active-variant {
+        .base-input {
+            border-color: #7300e5 !important;
+        }
+    }
+
+    textarea {
+        resize: none;
+        width: 100% !important;
+        height: 100%;
+        outline: none;
+        background-color: transparent;
+        background: #f4f4ff;
+        border: 2px solid #cdcdcd;
+        border-radius: 5px;
+        box-sizing: border-box;
+        padding: 5px 10px;
+        font-family: 'ManropeFonts', sans-serif;
+        font-size: 0.75rem;
+
+        &::placeholder {
+            color: var(--black-700);
+        }
+    }
+}

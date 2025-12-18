@@ -1,0 +1,52 @@
+.balance-history-page {
+    .tab-top-wrapper {
+        position: relative;
+    }
+
+    &__tabs {
+        position: absolute;
+        bottom: 0;
+        width: calc(100% - (var(--page_padding) * 2)) !important;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 calc(var(--page_padding) * -1);
+    }
+
+    &__calendar {
+        padding: 0 var(--page_padding);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__period {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        background-color: var(--blue-700);
+        border-radius: 20px;
+        height: 40px;
+        position: relative;
+
+        p {
+            color: var(--black-700);
+            font-size: 1rem;
+            line-height: 25px;
+            font-weight: 500;
+            color: white;
+        }
+
+        button {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+        }
+    }
+}

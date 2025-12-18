@@ -1,0 +1,12 @@
+.chats-badge {
+    .admin-badge__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

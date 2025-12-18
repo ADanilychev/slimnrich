@@ -1,0 +1,17 @@
+.metric {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &__question {
+        font-size: 1.0625rem;
+        color: var(--black-700);
+        font-weight: 600;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}

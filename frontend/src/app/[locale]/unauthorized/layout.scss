@@ -1,0 +1,16 @@
+.unauthorized {
+    .page {
+        box-sizing: border-box;
+        padding: var(--page_padding);
+
+        &__logo {
+            text-align: center;
+        }
+
+        .button button {
+            height: 60px;
+        }
+    }
+
+    background-color: #ddddff;
+}

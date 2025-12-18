@@ -1,0 +1,58 @@
+.select-payment {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+
+    &__item {
+        background: #ffffff;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        padding: 13px 15px;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: 0.3s all;
+        outline: none;
+        font-family: 'Manrope', sans-serif;
+
+        &.active {
+            border-color: #7300e5;
+            transition: 0.3s all;
+        }
+
+        &:disabled {
+            opacity: 0.5;
+        }
+    }
+
+    &__left {
+        p:first-child {
+            font-size: 0.9375rem;
+            color: #322b34;
+            font-weight: 600;
+            line-height: 22px;
+            text-align: left;
+            font-family: 'Manrope', sans-serif;
+        }
+
+        p:last-child {
+            font-size: 0.75rem;
+            color: var(--gray-500);
+            font-weight: 400;
+            font-family: 'Manrope', sans-serif;
+            text-align: left;
+        }
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+
+        p {
+            font-size: 0.8125rem;
+            font-weight: 600;
+            line-height: 18px;
+        }
+    }
+}

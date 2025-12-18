@@ -1,0 +1,22 @@
+.support-settings {
+    &__tabs {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .radio-button {
+            label {
+                border-radius: 100px !important;
+                border-color: var(--blue-700) !important;
+                color: var(--blue-700) !important;
+                font-weight: 600;
+            }
+
+            input[type='radio']:checked + label {
+                background-color: var(--blue-700) !important;
+                color: #fff !important;
+            }
+        }
+    }
+}

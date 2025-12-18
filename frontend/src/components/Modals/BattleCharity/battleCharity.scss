@@ -1,0 +1,111 @@
+.battle-charity-modal {
+    position: relative;
+    min-height: 200px;
+    overflow: hidden;
+    width: 90% !important;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__top {
+        background-color: var(--blue-300);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--black-700);
+        font-weight: 700;
+        font-size: 1.125rem;
+        height: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    &__content {
+        position: relative;
+        h2 {
+            font-weight: 700;
+            color: var(--black-700);
+            font-size: 1.0625rem;
+            text-align: center;
+            line-height: 22px;
+        }
+
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        span {
+            position: absolute;
+            bottom: -15px;
+            left: 0;
+            right: 0;
+            background-color: white;
+            height: 45px;
+            filter: blur(10px);
+        }
+    }
+
+    .select-input__drop-list {
+        max-height: 70px;
+    }
+
+    &__slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 10px;
+
+        img {
+            max-width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid var(--blue-700);
+        }
+    }
+
+    &__title {
+        font-size: 1.56rem;
+        font-weight: 800;
+        color: var(--black-700);
+    }
+
+    &__desc {
+        color: #777777;
+        font-weight: 400;
+        font-size: 1.25rem;
+
+        b {
+            font-weight: 600;
+        }
+    }
+
+    &__btns {
+        .button button {
+            height: 45px;
+        }
+    }
+
+    .swiper-pagination-new-achievement-modal {
+        transform: translateX(0);
+        position: static;
+        margin: 10px auto 0 auto;
+        display: flex;
+        justify-content: center;
+        // gap: 10px;
+
+        .swiper-pagination-bullet {
+            background: #7200e579;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: #6f00dd;
+        }
+    }
+}

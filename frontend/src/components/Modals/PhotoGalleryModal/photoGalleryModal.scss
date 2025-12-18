@@ -1,0 +1,129 @@
+.photo-gallery-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .view-form,
+    .edit-form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .edit-form {
+        .photo-gallery-modal__controls {
+            flex-direction: row;
+
+            .button {
+                &:first-child {
+                    flex: 0.3;
+                }
+                &:last-child {
+                    flex: 0.7;
+                }
+            }
+        }
+    }
+
+    &.modal-dialog {
+        width: 95% !important;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+
+        .top-controls {
+            display: flex;
+            gap: 5px;
+
+            svg {
+                cursor: pointer;
+            }
+        }
+
+        .top-user {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            max-width: 70%;
+
+            &__username {
+                font-weight: 800;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+    }
+
+    &__line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .line-item {
+            display: flex;
+            font-weight: 500;
+            gap: 4px;
+            p {
+                color: var(--blue-700);
+            }
+        }
+
+        .line-title {
+            font-size: 1.4375rem;
+            font-weight: 700;
+            text-transform: capitalize;
+            word-break: break-all;
+        }
+    }
+
+    &__image {
+        border-radius: 20px;
+        overflow: hidden;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__description {
+        font-size: 0.875rem;
+        line-height: 22px;
+        color: #666666;
+        max-height: 70px;
+        overflow-y: auto;
+
+        p {
+            word-break: break-all;
+        }
+    }
+
+    &__edit {
+        .button {
+            justify-content: flex-end;
+            display: flex;
+            button {
+                height: 40px;
+                width: 40px;
+                min-height: auto;
+                border-radius: 50%;
+                border-width: 1px;
+            }
+        }
+    }
+
+    &__controls {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        button {
+            height: 55px;
+        }
+    }
+}

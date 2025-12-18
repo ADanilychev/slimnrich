@@ -1,0 +1,59 @@
+.popup {
+    &-wrapper {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        z-index: 1002;
+        display: none;
+
+        &__active {
+            background: #7300e566;
+            backdrop-filter: blur(2px);
+            // transition: 0.5s all;
+            // display: initial;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    &-modal {
+        position: absolute;
+        width: 100%;
+
+        &__content {
+            display: flex;
+            justify-content: center;
+
+            .modal-dialog {
+                width: 100%;
+                background: #ffffff;
+                box-sizing: border-box;
+                max-height: 650px;
+                border-radius: 15px;
+
+                height: 100%;
+                box-sizing: border-box;
+
+                padding: 18px 16px;
+            }
+        }
+
+        &.popup-top-bt {
+            top: 0;
+
+            .modal-dialog {
+                border-radius: 0 0 15px 15px;
+            }
+        }
+
+        &.popup-bt-top {
+            & + .battle-page__item {
+                z-index: 1111111;
+            }
+        }
+    }
+}

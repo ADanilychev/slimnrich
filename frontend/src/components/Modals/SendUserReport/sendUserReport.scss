@@ -1,0 +1,59 @@
+.send-user-report {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &.modal-dialog {
+        width: 90% !important;
+    }
+
+    h2 {
+        font-weight: 800;
+        font-size: 1.475rem;
+        color: var(--black-700);
+        line-height: 32px;
+    }
+
+    small {
+        font-weight: 400;
+        color: var(--gray-500);
+        font-size: 0.875rem;
+        line-height: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__finish {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h2 {
+            text-align: center;
+        }
+
+        small {
+            text-align: center;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__controls {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        button {
+            height: 60px;
+        }
+    }
+}

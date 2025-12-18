@@ -1,0 +1,15 @@
+.buy-form {
+    &__top {
+        &-wrapper {
+            display: flex;
+            gap: 7px;
+            .base-input {
+                flex: 0.7;
+            }
+
+            .select-input {
+                flex: 0.4;
+            }
+        }
+    }
+}

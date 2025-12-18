@@ -1,0 +1,28 @@
+.players-battle-badge {
+    .badge__content {
+        display: flex;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+
+        .total-count {
+            color: var(--gray-500);
+            font-size: 0.8125rem;
+
+            b {
+                color: black;
+            }
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+    }
+}

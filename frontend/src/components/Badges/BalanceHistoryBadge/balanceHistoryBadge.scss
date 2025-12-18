@@ -1,0 +1,17 @@
+.balance-history-badge {
+    width: 100%;
+
+    .badge__content {
+        display: flex;
+        padding: 16px var(--page_padding) 0;
+
+        &_empty {
+            justify-content: center;
+            padding: 16px var(--page_padding);
+
+            .content__empty {
+                text-align: center;
+            }
+        }
+    }
+}

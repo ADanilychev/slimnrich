@@ -1,0 +1,25 @@
+.referrals-tables {
+    td,
+    th {
+        max-width: 60px;
+    }
+
+    .swiper-pagination {
+        transform: translateX(0);
+        position: static;
+        margin: 0 auto;
+        margin-top: 20px;
+
+        .custom-pagination {
+            color: #6f00dd;
+        }
+
+        .swiper-pagination-bullet {
+            background: #7300e55e;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: #6f00dd;
+        }
+    }
+}

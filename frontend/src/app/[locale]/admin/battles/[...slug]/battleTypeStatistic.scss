@@ -1,0 +1,71 @@
+.battle-type-statistic-page {
+    .header {
+        &__top {
+            height: 38px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 var(--page_padding);
+            align-items: center;
+            background-color: #5900b2;
+
+            border-radius: 5px 5px 0 0;
+
+            span {
+                color: white;
+                font-size: 1rem;
+                text-decoration: underline;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+
+        &__title {
+            color: #fff;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        &__content {
+            padding: 16px var(--page_padding);
+            background-color: #ebebff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            border-radius: 0 0 15px 15px;
+
+            &-top {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h2 {
+                    color: #322b34;
+                    font-weight: 800;
+                    font-size: 1.25rem;
+                }
+            }
+
+            &-users {
+                font-weight: 500;
+                font-size: 1rem;
+                color: var(--gray-500);
+
+                b {
+                    color: var(--green-500);
+                    font-weight: 600;
+                }
+            }
+
+            &-status {
+                color: #8000ff;
+                font-size: 1rem;
+                text-transform: capitalize;
+                font-weight: 500;
+            }
+        }
+    }
+}

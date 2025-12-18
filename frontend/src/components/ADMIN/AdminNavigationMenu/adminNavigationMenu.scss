@@ -1,0 +1,33 @@
+.admin-navigation-menu {
+    height: 66px;
+    background-color: #a86aff;
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: var(--default-menu-nav-z-index);
+
+    display: flex;
+    justify-content: space-between;
+
+    &_skeleton {
+        background-color: #a86aff21;
+    }
+
+    &__item {
+        height: 100%;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #ffffff;
+        gap: 5px;
+
+        &_active {
+            background-color: var(--blue-800);
+        }
+    }
+}

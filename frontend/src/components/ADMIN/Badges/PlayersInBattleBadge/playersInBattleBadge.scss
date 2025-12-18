@@ -1,0 +1,41 @@
+.players-battle-badge {
+    .admin-badge__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-item {
+        padding: 18px 12px;
+        border: 1px solid var(--blue-400);
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+
+        &__left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            h3 {
+                font-size: 1.067rem;
+                font-weight: 700;
+                line-height: 21px;
+                width: 140px;
+                display: block;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+
+        &__right {
+            button {
+                font-size: 0.75rem;
+                font-weight: 600;
+                min-width: 100px;
+                min-height: 33px;
+            }
+        }
+    }
+}

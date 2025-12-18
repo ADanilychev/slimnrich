@@ -1,0 +1,27 @@
+.user-frame {
+    position: relative;
+    cursor: pointer;
+
+    &__wrapper {
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    &__span {
+        border: 0.5px solid #ffffff;
+        width: 12px;
+        height: 12px;
+        font-size: 0.4375rem;
+        color: #7300e5;
+        font-weight: 700;
+        background-color: #ffffff;
+        border-radius: 50%;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: -4px;
+        bottom: 0;
+    }
+}

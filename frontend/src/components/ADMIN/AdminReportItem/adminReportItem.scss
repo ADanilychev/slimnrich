@@ -1,0 +1,80 @@
+.admin-report-item {
+    width: 100%;
+    border-radius: 15px;
+    background-color: var(--white-500);
+    box-shadow: 0 0 10px -4px #7300e50f;
+
+    &_approved {
+        .admin-report-item__top {
+            background-color: var(--green-500);
+        }
+
+        .admin-report-item__row p b {
+            color: var(--green-500);
+        }
+    }
+
+    &_declined {
+        .admin-report-item__top {
+            background-color: rgba(255, 61, 101, 1);
+        }
+
+        .admin-report-item__row p b {
+            color: rgba(255, 61, 101, 1);
+        }
+    }
+
+    &_consideration {
+        .admin-report-item__top {
+            background-color: var(--blue-600);
+        }
+
+        .admin-report-item__row p b {
+            color: var(--blue-600);
+        }
+    }
+
+    &__top {
+        padding: 10px 19px;
+        background-color: #05c338;
+        border-radius: 15px 15px 0 0;
+
+        p {
+            color: #ffffff;
+            font-weight: 800;
+            font-size: 0.875rem;
+        }
+    }
+
+    &__content {
+        padding: 14px 19px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    &__row {
+        p {
+            color: #838383;
+            font-size: 0.875rem;
+            line-height: 20px;
+
+            b {
+                color: #05c338;
+            }
+
+            i {
+                color: var(--black-700);
+            }
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+}

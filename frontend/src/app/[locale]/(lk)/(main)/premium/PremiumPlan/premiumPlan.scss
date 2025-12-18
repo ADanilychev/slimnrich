@@ -1,0 +1,89 @@
+.premium-plan {
+    overflow: hidden;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    flex-shrink: 0;
+    flex-grow: 1;
+
+    &__bg {
+        background-color: var(--blue-100);
+    }
+
+    &_active {
+        background: linear-gradient(to right, #8e00e5, #ff6b00) border-box;
+    }
+
+    &__header {
+        background-color: var(--blue-300);
+        padding: 12px 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 1.0625rem;
+        color: #000;
+    }
+
+    &__content {
+        padding: 21px 11px;
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+
+        p {
+            font-weight: 700;
+            font-size: 0.875rem;
+            line-height: 19px;
+            color: #000;
+            text-align: center;
+
+            span {
+                color: var(--blue-700);
+            }
+        }
+    }
+
+    &__image {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__price {
+        display: flex;
+        justify-content: center;
+        p {
+            color: var(--gray-500);
+            font-size: 1rem;
+            font-weight: 600;
+
+            span {
+                color: var(--blue-700);
+            }
+        }
+    }
+
+    &__button {
+        .button {
+            button {
+                height: 45px;
+                font-weight: 600;
+
+                &:disabled {
+                    opacity: 0.5;
+                }
+
+                svg {
+                    path {
+                        stroke: var(--blue-700);
+                    }
+                }
+            }
+        }
+    }
+}

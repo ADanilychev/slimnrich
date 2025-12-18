@@ -1,0 +1,113 @@
+.welcome-page {
+    width: 100%;
+    height: 100svh;
+    overflow: hidden;
+
+    .select-language-button {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        max-width: 360px;
+        z-index: 1000;
+    }
+
+    .button {
+        position: absolute;
+        bottom: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        max-width: 360px;
+        z-index: 1000;
+    }
+
+    &__start {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .start-container {
+            &__top {
+            }
+
+            &__bottom {
+                background-color: #fff;
+                width: calc(100% + var(--page_padding) * 2);
+                height: calc(100svh);
+                margin: 0 calc(var(--page_padding) * -1);
+            }
+
+            &__text {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 10px;
+
+                h3 {
+                    color: #8e00e5;
+                    font-weight: 600;
+                    font-size: 1rem;
+                }
+
+                h2 {
+                    font-weight: 800;
+                    font-size: 1.875rem;
+                    line-height: 39px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 1rem;
+                    color: #322b34;
+                    line-height: 22px;
+                }
+            }
+
+            &__checkbox {
+                margin-top: 30px;
+
+                line-height: 20px;
+
+                p,
+                a {
+                    color: #322b34;
+                }
+
+                a {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 400px) {
+    .story-item svg {
+        transform: scale(1.1);
+    }
+}
+
+@media (min-width: 429px) {
+    .story-item svg {
+        transform: scale(1.2);
+    }
+}
+
+@media (max-height: 766px) {
+    .welcome-page__start .start-container__text h2 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .welcome-page__start {
+        gap: 20px;
+    }
+}
+
+@media (max-height: 645px) {
+    .start-lenta {
+        display: none;
+    }
+}

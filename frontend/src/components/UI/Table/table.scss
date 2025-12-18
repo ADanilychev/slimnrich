@@ -1,0 +1,39 @@
+.table-ui {
+    width: 100%;
+
+    td,
+    th {
+        border: 1px solid #bfbfff;
+        border-collapse: collapse;
+        padding: 0 5px;
+        overflow: hidden;
+    }
+
+    thead {
+        background-color: var(--blue-400);
+        height: 40px;
+
+        tr {
+            th {
+                vertical-align: middle;
+                color: var(--blue-800);
+                font-weight: 600;
+                height: 40px;
+            }
+        }
+    }
+
+    tbody {
+        color: #797979;
+        tr {
+            height: 50px;
+
+            td {
+                vertical-align: middle;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.notifications-badge {
+    .badge__content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .active button {
+            height: 50px;
+        }
+    }
+
+    &__empty {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+
+        p {
+            color: var(--blue-700);
+            font-weight: 600;
+            font-size: 1rem;
+        }
+    }
+}

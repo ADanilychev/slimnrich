@@ -1,0 +1,77 @@
+.admin-user-page {
+    .admin-page__content {
+        margin: 0 calc(var(--page_padding) * -1) 0 calc(var(--page_padding) * -1);
+
+        .badge,
+        .admin-badge {
+            &__header {
+                display: none;
+            }
+
+            &__content {
+                background: transparent;
+                padding: 16px 0;
+            }
+
+            &.photo-showcase-badge {
+                .badge__header {
+                    display: flex;
+                }
+
+                .badge__content {
+                    background-color: #ebebff;
+                }
+            }
+        }
+
+        .photo-gallery-badge__wrapper {
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        }
+
+        .admin-badge {
+            &__content {
+                padding: 16px 0;
+            }
+        }
+
+        .accordion-item {
+            .accordion-item__title {
+                padding: 0 var(--page_padding);
+            }
+        }
+
+        .balance-history-badge {
+            .badge__header {
+                display: flex;
+                border-radius: 0;
+            }
+        }
+
+        .badge__content,
+        .admin-badge__content {
+            padding-left: var(--page_padding);
+            padding-right: var(--page_padding);
+        }
+    }
+
+    &__ban-hint {
+        font-size: 1rem;
+        text-align: center;
+
+        margin: 10px 0;
+
+        b {
+            font-weight: 600;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__chat-btn {
+        margin: 10px 0;
+    }
+}

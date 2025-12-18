@@ -1,0 +1,61 @@
+.settings-page {
+    .tab-top-wrapper {
+        max-height: inherit;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    &__buttons {
+        margin-top: 20px;
+    }
+
+    .setting-type {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .rules-setting,
+    .support-settings {
+        &__text {
+            color: #838383;
+            line-height: 22px;
+            font-weight: 500;
+        }
+    }
+
+    .rules-block {
+        margin: 15px calc(var(--page_padding) * -1) 0 calc(var(--page_padding) * -1);
+
+        &__scroll {
+            overflow-y: scroll;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        &__text {
+            background-color: #ebebff;
+            border-radius: 15px;
+            padding: 21px var(--page_padding);
+            box-sizing: border-box;
+            display: flex;
+            height: calc(100svh - 368px);
+            overflow-y: scroll;
+            margin-bottom: 15px;
+        }
+    }
+
+    .radio-button label {
+        border-color: var(--gray-500);
+        color: var(--gray-500);
+    }
+
+    .radio-button input[type='radio']:checked + label,
+    .radio-button input[type='checkbox']:checked + label {
+        background-color: var(--blue-300);
+        border-color: inherit;
+        color: #8000ff;
+    }
+}

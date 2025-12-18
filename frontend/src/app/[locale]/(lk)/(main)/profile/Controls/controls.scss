@@ -1,0 +1,18 @@
+.btn-control {
+    height: 65px;
+    padding: 18px var(--page_padding);
+    background: #ebebff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+
+    &__arrow {
+        margin-right: 0;
+        margin-left: auto;
+        cursor: pointer;
+    }
+}

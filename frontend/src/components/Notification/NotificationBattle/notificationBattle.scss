@@ -1,0 +1,15 @@
+.notification-item_battle {
+    &_battle {
+        .notification-item__type {
+            overflow: hidden;
+            border-radius: 50%;
+            border: 1px solid var(--blue-400);
+        }
+    }
+
+    &__message {
+        b {
+            color: rgb(247, 118, 0);
+        }
+    }
+}

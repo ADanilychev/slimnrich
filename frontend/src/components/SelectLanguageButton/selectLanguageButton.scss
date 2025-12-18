@@ -1,0 +1,22 @@
+.select-language-button {
+    color: var(--main_btn_text_color);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    font-size: 1rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #fff;
+
+    &:active {
+        outline: none;
+    }
+}

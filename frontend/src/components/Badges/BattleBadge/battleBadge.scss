@@ -1,0 +1,35 @@
+.battle-badge {
+    .badge__content {
+        display: flex;
+        padding: 0;
+
+        .battle-item {
+            box-sizing: border-box;
+            padding: 16px var(--page_padding) 0 var(--page_padding);
+        }
+
+        .battle-item__header-q {
+            display: none;
+        }
+
+        // .bid-drop-list__drop {
+        //     max-height: 100px;
+        //     overflow-y: scroll;
+        // }
+
+        .swiper-pagination {
+            transform: translateX(0);
+            position: static;
+            margin: 0 auto;
+            padding-bottom: 16px;
+
+            .swiper-pagination-bullet {
+                background: #7300e55e;
+            }
+
+            .swiper-pagination-bullet-active {
+                background: #6f00dd;
+            }
+        }
+    }
+}

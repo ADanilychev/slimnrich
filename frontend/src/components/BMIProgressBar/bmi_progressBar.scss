@@ -1,0 +1,51 @@
+.imb-progress {
+    width: 100%;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        small {
+            color: #676567;
+            font-size: 0.875rem;
+        }
+
+        p {
+            font-weight: 700;
+            color: #322b34;
+            font-size: 1.125rem;
+        }
+    }
+
+    &__line {
+        width: 100%;
+        display: flex;
+
+        .line-section {
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+
+            span {
+                display: block;
+                height: 10px;
+                width: 100%;
+            }
+
+            &__pointer {
+                position: absolute;
+                top: -4px;
+                border: 8px solid transparent;
+                border-top: 8px solid #322b34;
+                z-index: 1;
+            }
+        }
+    }
+}

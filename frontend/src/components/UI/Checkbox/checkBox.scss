@@ -1,0 +1,26 @@
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    input {
+        -webkit-appearance: none;
+        position: absolute;
+    }
+
+    .checkbox {
+        border: 1.25px solid #322b34;
+        background: transparent center no-repeat;
+        width: 16px;
+        height: 16px;
+        // border-radius: 10px;
+        cursor: pointer;
+        box-sizing: border-box;
+        outline: none;
+        transition: 0.2s all;
+    }
+
+    input:checked ~ .checkbox {
+        background: transparent url('/img/check.svg') center / 13px no-repeat;
+    }
+}

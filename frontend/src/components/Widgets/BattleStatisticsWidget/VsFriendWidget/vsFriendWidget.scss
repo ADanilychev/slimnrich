@@ -1,0 +1,144 @@
+.vs-friend-widget {
+    padding: 23px var(--page_padding);
+    margin: 0 calc(var(--page_padding) * -1);
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+
+    &.battle-status {
+        &_new {
+            background:
+                linear-gradient(89.89deg, #8924f0, #8924f033),
+                url('/img/battle/statistics/vs-friend.png') right top/cover no-repeat;
+        }
+
+        &_continue {
+            background:
+                linear-gradient(303.86deg, #ff0036b3 10.77%, #00e33db3 96.03%),
+                url('/img/battle/statistics/vs-friend.png') right top/cover no-repeat;
+        }
+
+        &_waiting {
+            background:
+                linear-gradient(303.86deg, #9b9b9bb3 10.77%, #adadadb3 96.03%),
+                url('/img/battle/statistics/vs-friend.png') right top/cover no-repeat;
+        }
+
+        &_lost {
+            background:
+                linear-gradient(89.89deg, #ff2150b2, #ff2150b2),
+                url('/img/battle/statistics/vs-friend.png') right top/cover no-repeat;
+        }
+
+        &_won {
+            background:
+                linear-gradient(89.89deg, #00e33db2, #00e33db2),
+                url('/img/battle/statistics/vs-friend.png') right top/cover no-repeat;
+        }
+    }
+
+    .button button {
+        height: 50px;
+    }
+
+    &__top {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+
+        .user-entity p,
+        small {
+            color: #fff !important;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        width: 100%;
+
+        h3 {
+            font-size: 1.25rem;
+            color: var(--blue-100);
+            font-weight: 800;
+            line-height: 27px;
+        }
+
+        .info-subtext {
+            color: var(--blue-200);
+            font-weight: 300;
+            font-size: 0.75rem;
+            line-height: 17px;
+
+            b {
+                color: var(--white-500);
+                font-weight: 500;
+            }
+        }
+
+        .info-status {
+            font-size: 1.125rem;
+            color: var(--blue-100);
+            font-weight: 600;
+            line-height: 27px;
+        }
+
+        .bid {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 5px;
+
+            &__text {
+                color: var(--blue-400);
+                font-size: 0.8125rem;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__img {
+        background: linear-gradient(270deg, #ff6b00 0%, #8e00e5 100%);
+        width: 85px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+
+    &__controls {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .control-row {
+            display: flex;
+            gap: 30px;
+            justify-content: right;
+        }
+
+        .button {
+            flex: 0.5;
+        }
+
+        .button button {
+            height: 40px;
+            font-size: 0.875rem;
+        }
+
+        .button.stroke button {
+            border: 2px solid #ff6b00;
+            color: #ff6b00;
+            background: #ffe5cc;
+        }
+    }
+}

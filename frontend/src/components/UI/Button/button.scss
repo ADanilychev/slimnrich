@@ -1,0 +1,143 @@
+.button {
+    width: 100%;
+    transition: 0.3s all;
+
+    button {
+        font-size: 1rem;
+        color: #fff;
+        min-height: 45px;
+        width: 100%;
+        border-radius: 100px;
+        border: none;
+        box-sizing: border-box;
+        transition: 0.3s all linear;
+        user-select: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        cursor: pointer;
+
+        &:not(:disabled):active {
+            outline: none;
+            transform: scale(0.9);
+            transition: 0.3s all ease-in;
+        }
+    }
+
+    &.active {
+        button {
+            transition: 0.3s all linear;
+            background: linear-gradient(270deg, #ff6b00 0%, #8e00e5 100%);
+        }
+    }
+
+    &.disabled,
+    &.disabled-variant {
+        button {
+            transition: 0.3s all linear;
+            color: #322b34;
+            background: #cdcdcd;
+            font-weight: 600;
+        }
+    }
+
+    &.orange {
+        button {
+            transition: 0.3s all linear;
+            background: #ff6b00;
+        }
+    }
+
+    &.violet {
+        button {
+            transition: 0.3s all linear;
+            background: #8000ff;
+        }
+    }
+
+    &.stroke {
+        button {
+            border: 2px solid #7300e5;
+            color: #7300e5;
+            background: var(--blue-200);
+        }
+    }
+
+    &.stroke-red {
+        button {
+            border: 2px solid var(--red-500);
+            color: var(--red-500);
+            background: #ffd7da;
+        }
+    }
+
+    &.transparent {
+        button {
+            border-color: transparent;
+            color: #7300e5;
+            background: transparent;
+            font-weight: 600;
+        }
+    }
+
+    &.green {
+        button {
+            background-color: #05c338;
+        }
+    }
+
+    &.red {
+        button {
+            background-color: var(--red-500);
+        }
+    }
+
+    &.blue {
+        button {
+            background-color: var(--blue-700);
+        }
+    }
+
+    &.gradient {
+        button {
+            background-image: linear-gradient(to right, #8e00e5, #ff6b00);
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                border: 2px solid transparent;
+                border-radius: 100px;
+                background: inherit;
+                background-origin: border-box;
+                background-clip: border-box;
+                -webkit-mask:
+                    linear-gradient(#ffffff 0 0) padding-box,
+                    linear-gradient(#ffffff 0 0);
+                -webkit-mask-composite: xor;
+                mask-composite: exclude;
+                -webkit-mask-repeat: no-repeat;
+            }
+        }
+    }
+
+    &.loading {
+        .button-spinner {
+            animation: spin 2s linear infinite;
+        }
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}

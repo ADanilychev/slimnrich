@@ -1,0 +1,45 @@
+.achievement-item {
+    width: 110px;
+    border-radius: 15px;
+    border: 2px solid var(--gray-500);
+    background-color: var(--blue-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 10px;
+    gap: 5px;
+    box-sizing: border-box;
+    position: relative;
+    user-select: none;
+
+    &_received {
+        border-color: var(--blue-700);
+        background-color: var(--blue-200);
+    }
+
+    &__received-img {
+        position: absolute;
+        right: 10px;
+        top: 6px;
+    }
+
+    &__title {
+        color: var(--black-700);
+        font-size: 0.875rem;
+        line-height: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__sub {
+        color: #777777;
+        font-size: 0.75rem;
+        line-height: 16px;
+        text-align: center;
+
+        b {
+            font-weight: 600;
+        }
+    }
+}

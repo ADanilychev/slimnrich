@@ -1,0 +1,9 @@
+.wrapper-chat {
+    width: 100%;
+    height: calc(100% - 15px);
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 15px;
+}

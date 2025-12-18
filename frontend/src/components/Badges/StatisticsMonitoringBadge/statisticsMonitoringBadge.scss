@@ -1,0 +1,48 @@
+.statistics-monitoring {
+    .badge__content {
+        display: flex;
+        overflow: hidden;
+        gap: 0;
+    }
+
+    &__filter {
+        &.badge__header {
+            align-items: inherit;
+        }
+    }
+
+    &__chart {
+        width: 100%;
+        scale: 1.15;
+
+        svg {
+            pointer-events: unset !important;
+        }
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+
+            p {
+                color: #322b34;
+                font-size: 1.5rem;
+                font-weight: 700;
+                line-height: 32px;
+            }
+
+            small {
+                font-size: 0.875rem;
+                color: #999999;
+            }
+        }
+    }
+}

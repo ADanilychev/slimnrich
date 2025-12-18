@@ -1,0 +1,28 @@
+.base-hint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    p {
+        font-size: 1rem;
+        line-height: 22px;
+        font-weight: 500;
+    }
+
+    b {
+        font-weight: 700;
+    }
+
+    &__error {
+        p {
+            color: var(--error_color);
+        }
+    }
+
+    &__success {
+        p {
+            color: var(--green-500);
+        }
+    }
+}

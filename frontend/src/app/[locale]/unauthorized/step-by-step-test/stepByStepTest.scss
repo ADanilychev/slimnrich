@@ -1,0 +1,77 @@
+.sbs-test {
+    &__progress {
+        margin-bottom: 20px;
+    }
+
+    &__content {
+        min-height: calc(100svh - var(--page_padding) * 2 - 210px);
+    }
+
+    &__step {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #322b34;
+        }
+
+        small {
+            font-size: 1rem;
+            color: #322b34;
+            line-height: 21px;
+        }
+
+        .rb-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+
+            &__columns {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+
+                .another-block {
+                    grid-column: span 2;
+                }
+            }
+
+            .radio-button label {
+                border-color: transparent;
+                background-color: #f4f4ff;
+                color: #322b34;
+            }
+
+            .radio-button input[type='radio']:checked + label,
+            .radio-button input[type='checkbox']:checked + label {
+                background-color: #f4f4ff;
+                border-color: inherit;
+                color: #8000ff;
+            }
+        }
+    }
+
+    &__controls {
+        margin-top: 20px;
+
+        .test-controls--with-skip {
+            display: flex;
+            position: relative;
+            z-index: 1;
+
+            #skipBtn {
+                position: absolute;
+                right: 0;
+                width: fit-content;
+            }
+        }
+    }
+
+    .another-block {
+        width: 100%;
+    }
+}

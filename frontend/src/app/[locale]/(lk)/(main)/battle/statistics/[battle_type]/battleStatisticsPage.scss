@@ -1,0 +1,8 @@
+.battle-statistics-page {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 17px calc(var(--page_padding) * -1) 0 calc(var(--page_padding) * -1);
+    }
+}

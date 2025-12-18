@@ -1,0 +1,24 @@
+.battle-page {
+    display: flex;
+    flex-direction: column;
+
+    &__top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            color: #838383;
+            font-weight: 500;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 calc(var(--page_padding) * -1);
+    }
+}

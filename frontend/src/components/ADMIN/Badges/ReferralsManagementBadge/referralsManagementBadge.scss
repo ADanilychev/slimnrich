@@ -1,0 +1,37 @@
+.referrals-management {
+    box-sizing: border-box;
+
+    .admin-badge__header {
+        padding: 0 calc(var(--page_padding) * 2);
+    }
+
+    .admin-badge__content {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    &__table {
+        overflow: scroll;
+        width: 100%;
+        td:nth-child(5),
+        th:nth-child(5),
+        td:nth-child(1),
+        th:nth-child(1) {
+            max-width: 60px;
+        }
+
+        .blogger-name {
+            text-decoration: underline;
+            color: var(--blue-900);
+            cursor: pointer;
+        }
+    }
+
+    &__footer {
+        width: 100%;
+        padding: 0 var(--page_padding);
+    }
+}

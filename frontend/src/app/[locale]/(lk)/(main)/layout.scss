@@ -1,0 +1,9 @@
+.lk-main {
+    height: calc(100svh - 67px - 22px);
+    overflow-y: scroll;
+
+    .main-content {
+        margin-top: 17px;
+        padding-bottom: 75px;
+    }
+}

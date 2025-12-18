@@ -1,0 +1,71 @@
+.select-input {
+    position: relative;
+    cursor: pointer;
+
+    input {
+        cursor: pointer;
+    }
+
+    &__block-icon {
+        position: absolute;
+        right: 17px;
+        transition: 0.3s all;
+    }
+
+    &__arrow {
+        position: absolute;
+        right: 17px;
+        transition: 0.3s all;
+
+        &_open {
+            transform: rotate(180deg);
+            transition: 0.3s all;
+        }
+
+        &-without-title {
+        }
+    }
+
+    &__drop-list {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        background-color: #f4f4ff;
+        z-index: 2;
+
+        box-sizing: border-box;
+        max-height: 195px;
+        overflow-y: scroll;
+        border-radius: 5px 5px 17px 17px;
+
+        display: flex;
+        flex-direction: column;
+
+        .drop-list__item {
+            cursor: pointer;
+            padding: 10px 14px;
+            font-size: 0.875rem;
+
+            p {
+                font-weight: 500;
+                font-size: 0.875rem;
+                color: var(--black-700);
+                line-height: 19px;
+            }
+
+            &.active {
+                background-color: var(--blue-300);
+            }
+        }
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+}

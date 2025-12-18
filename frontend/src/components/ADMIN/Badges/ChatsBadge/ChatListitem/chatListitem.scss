@@ -1,0 +1,46 @@
+.chat-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid var(--gray-400);
+    }
+
+    &__top {
+        font-weight: 500;
+        font-size: 1rem;
+        margin-bottom: 10px;
+        b {
+            font-weight: 700;
+        }
+    }
+
+    &__content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        font-size: 0.875rem;
+        color: #838383;
+
+        p {
+            b {
+                color: var(--black-700);
+            }
+        }
+
+        &_answered {
+            b {
+                color: var(--green-500);
+            }
+        }
+
+        &_waiting {
+            b {
+                color: rgba(255, 61, 101, 1) !important;
+            }
+        }
+    }
+}

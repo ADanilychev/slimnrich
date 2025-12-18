@@ -1,0 +1,26 @@
+.answer-user-test-badge {
+    .admin-badge__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            color: #7c7c7c;
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 20px;
+        }
+
+        b {
+            color: var(--black-700);
+            font-weight: 600;
+            font-size: 1rem;
+            text-align: right;
+            line-height: 20px;
+        }
+    }
+}

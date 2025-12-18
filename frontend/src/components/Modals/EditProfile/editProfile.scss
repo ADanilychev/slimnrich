@@ -1,0 +1,59 @@
+.edit-profile-modal {
+    display: flex;
+    flex-direction: column;
+
+    &.modal-dialog {
+        background-color: var(--blue-200);
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        font-weight: 800;
+        color: var(--black-700);
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+
+    &__avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        #avatar-ico {
+            position: absolute;
+            bottom: -13px;
+        }
+    }
+
+    &__wrapper-image {
+        width: 90px;
+        height: 90px;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 2px solid #cfcffd;
+    }
+
+    &__form {
+        margin-top: 26px;
+    }
+
+    &__controls {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 50px;
+
+        .button {
+            button {
+                height: 60px;
+            }
+
+            &.transparent {
+                button {
+                    height: 45px;
+                }
+            }
+        }
+    }
+}

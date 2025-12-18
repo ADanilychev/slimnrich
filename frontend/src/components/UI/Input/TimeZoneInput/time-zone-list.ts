@@ -1,0 +1,132 @@
+export const timeZoneList = [
+    {
+        text: 'UTC-12:00 — Tuvalu',
+        value: -12,
+        icon: '/img/countries/tv.png',
+    },
+    {
+        text: 'UTC-11:00 — American Sa',
+        value: -11,
+        icon: '/img/countries/as.png',
+    },
+    {
+        text: 'UTC-10:00 — Hawaii',
+        value: -10,
+        icon: '/img/countries/us.png',
+    },
+    {
+        text: 'UTC-09:00 — Samoa, Tonga',
+        value: -9,
+        icon: '/img/countries/ws.png',
+    },
+    {
+        text: 'UTC-08:00 — Pacific Time (USA and Canada)',
+        value: -8,
+        icon: '/img/countries/us.png',
+    },
+    {
+        text: 'UTC-07:00 — Mountain Time (USA and Canada)',
+        value: -7,
+        icon: '/img/countries/us.png',
+    },
+    {
+        text: 'UTC-06:00 — Central Time (USA and Canada), Mexico',
+        value: -6,
+        icon: '/img/countries/mx.png',
+    },
+    {
+        text: 'UTC-05:00 — Eastern Time (USA and Canada), Colombia, Peru',
+        value: -5,
+        icon: '/img/countries/ca.png',
+    },
+    {
+        text: 'UTC-04:00 — Atlantic Time (Canada), Venezuela, Dominican Republic',
+        value: -4,
+        icon: '/img/countries/do.png',
+    },
+    {
+        text: 'UTC-03:00 — Argentina, Brazil, Uruguay, Chile',
+        value: -3,
+        icon: '/img/countries/uy.png',
+    },
+    {
+        text: 'UTC-02:00 — South Georgia and the South Sandwich Islands',
+        value: -2,
+        icon: '/img/countries/gs.png',
+    },
+    {
+        text: 'UTC-01:00 Praia, Cape Verde',
+        value: -1,
+        icon: '/img/countries/cv.png',
+    },
+    {
+        text: 'UTC+00:00 — Greenwich Mean Time (GMT), London',
+        value: 0,
+        icon: '/img/countries/gb.png',
+    },
+    {
+        text: 'UTC+01:00 — Central European Time (CET)',
+        value: +1,
+        icon: '/img/countries/de.png',
+    },
+    {
+        text: 'UTC+02:00 — Eastern European Time (EET)',
+        value: +2,
+        icon: '/img/countries/ee.png',
+    },
+    {
+        text: 'UTC+03:00 — Moscow, Saint Petersburg, Saudi Arabia',
+        value: +3,
+        icon: '/img/countries/ru.png',
+    },
+    {
+        text: 'UTC+04:00 — United Arab Emirates',
+        value: +4,
+        icon: '/img/countries/ae.png',
+    },
+    {
+        text: 'UTC+05:00 — Pakistan, Uzbekistan',
+        value: +5,
+        icon: '/img/countries/pk.png',
+    },
+    {
+        text: 'UTC+05:30 — India, Sri Lanka',
+        value: +5.3,
+        icon: '/img/countries/in.png',
+    },
+    {
+        text: 'UTC+06:00 — Bangladesh, Bhutan',
+        value: +6,
+        icon: '/img/countries/bd.png',
+    },
+    {
+        text: 'UTC+07:00 — Vietnam, Indonesia (part)',
+        value: +7,
+        icon: '/img/countries/vn.png',
+    },
+    {
+        text: 'UTC+08:00 — China, Australia (Western part)',
+        value: 8,
+        icon: '/img/countries/cn.png',
+    },
+    {
+        text: 'UTC+09:00 — Japan, South Korea',
+        value: 9,
+        icon: '/img/countries/jp.png',
+    },
+    {
+        text: 'UTC+10:00 — Australia (Eastern part)',
+        value: 10,
+        icon: '/img/countries/au.png',
+    },
+    {
+        text: 'UTC+11:00 — Solomon Islands',
+        value: 11,
+        icon: '/img/countries/sb.png',
+    },
+    {
+        text: 'UTC+12:00 — Fiji, New Zealand (some regions)',
+        value: 12,
+        icon: '/img/countries/fj.png',
+    },
+];

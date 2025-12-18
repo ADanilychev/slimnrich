@@ -1,0 +1,19 @@
+.achievements-badge {
+    &__content {
+        .achievement-item-badge {
+            img {
+                border: 2px solid var(--blue-700);
+                border-radius: 50%;
+                min-width: 60px;
+                min-height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            &.lock {
+                filter: grayscale(100%);
+            }
+        }
+    }
+}

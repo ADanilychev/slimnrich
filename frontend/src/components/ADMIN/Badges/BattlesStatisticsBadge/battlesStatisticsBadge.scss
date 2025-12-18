@@ -1,0 +1,102 @@
+.battles-statistics-badge {
+    .admin-badge__content {
+        display: flex;
+    }
+
+    &__top {
+        display: flex;
+        gap: 40px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        h1 {
+            font-size: 1rem;
+            color: #797979;
+            font-weight: 600;
+        }
+
+        h2 {
+            color: var(--blue-700);
+            font-size: 1.75rem;
+            font-weight: 800;
+        }
+    }
+
+    &__stats {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            min-width: 150px;
+            color: var(--gray-500);
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        b {
+            color: var(--black-700);
+            font-weight: 600;
+            font-size: 1rem;
+        }
+    }
+
+    &__bottom {
+        width: 100%;
+    }
+
+    &__graph {
+        display: flex;
+        align-items: center;
+        height: 25px;
+
+        h3 {
+            text-transform: capitalize;
+            font-weight: 700;
+            flex-shrink: 0;
+            min-width: 140px;
+            font-size: 0.875rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+
+            span {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                z-index: -1;
+                opacity: 0.3;
+            }
+        }
+
+        &-bar {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            height: 100%;
+
+            span {
+                height: 100%;
+                display: flex;
+            }
+
+            p {
+                font-size: 0.875rem;
+                font-weight: 700;
+            }
+        }
+    }
+}

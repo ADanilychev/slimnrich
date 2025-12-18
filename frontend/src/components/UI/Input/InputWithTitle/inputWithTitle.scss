@@ -1,0 +1,16 @@
+.input-with-title {
+    width: 100%;
+
+    &__title {
+        color: #7300e5;
+        font-weight: 700;
+        font-size: 0.875rem;
+        margin-bottom: 8px;
+    }
+
+    &.active-variant {
+        .base-input {
+            border-color: #7300e5 !important;
+        }
+    }
+}

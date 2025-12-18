@@ -1,0 +1,75 @@
+.bid-drop-list {
+    min-width: 97px;
+    position: relative;
+
+    &_open {
+        // .bid-drop-list__drop ~ .bid-drop-list__current {
+        //     z-index: 3;
+        // }
+
+        .bid-drop-list__arrow {
+            transform: rotate(180deg);
+            transition: 0.2s all;
+        }
+    }
+
+    &__current {
+        border: 2px solid #cdcdcd;
+        padding: 5px 10px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        border-radius: 100px;
+        gap: 5px;
+        position: sticky;
+        z-index: 3;
+        cursor: pointer;
+        user-select: none;
+
+        img:last-child {
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+
+    &__arrow {
+        transition: 0.3s all;
+    }
+
+    &__drop {
+        background-color: #f4f4ff;
+        position: absolute;
+        top: 60%;
+        left: 0;
+        right: 0;
+        border-radius: 0 0 5px 5px;
+        padding-top: 14px;
+        z-index: 2;
+        box-shadow: 0px 4px 16px 1px #a205ca1a;
+        max-height: 100px;
+        overflow-y: scroll;
+
+        ul {
+            li {
+                padding: 5px 10px;
+                border-radius: 5px;
+                font-size: 0.75rem;
+                cursor: pointer;
+                user-select: none;
+
+                &.selected {
+                    background: #ddddff;
+                }
+            }
+        }
+    }
+
+    &__back-drop {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+}

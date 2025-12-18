@@ -1,0 +1,41 @@
+.input-upload-file {
+    width: 100%;
+    cursor: pointer;
+
+    &__area {
+        color: var(--blue-800);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        gap: 10px;
+    }
+
+    p {
+        font-size: 0.875rem;
+        font-weight: 600;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        padding: 5px 0;
+    }
+
+    svg {
+        flex-shrink: 0;
+    }
+
+    &__loader {
+        animation: spin 2s infinite linear;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}

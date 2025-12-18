@@ -1,0 +1,15 @@
+.battle-image {
+    background: linear-gradient(270deg, #ff6b00 0%, #8e00e5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    overflow: hidden;
+
+    img {
+        border-radius: 50%;
+        overflow: hidden;
+        object-fit: cover;
+    }
+}

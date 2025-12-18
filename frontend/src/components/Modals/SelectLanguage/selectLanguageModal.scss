@@ -1,0 +1,19 @@
+.select-language-modal {
+    &.modal-dialog {
+        width: 90%;
+        padding: 19px 30px;
+        max-width: 400px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

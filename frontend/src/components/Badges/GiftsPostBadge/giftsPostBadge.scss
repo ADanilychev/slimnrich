@@ -1,0 +1,18 @@
+.gifts-post-badge {
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .badge__content {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 10px;
+        box-sizing: border-box;
+
+        .notification-item_photo {
+            width: auto;
+        }
+    }
+}

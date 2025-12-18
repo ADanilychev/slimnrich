@@ -1,0 +1,64 @@
+.invite-friends {
+    background-color: var(--blue-200);
+    padding: 20px 16px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &__title {
+        font-size: 1.25rem;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    &__banner {
+        background-color: #d5d5ff;
+        border-radius: 16px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__hint {
+        font-size: 1rem;
+        color: #838383;
+        line-height: 22px;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            color: var(--blue-600);
+            font-size: 0.9375rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        span {
+            color: var(--blue-700);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-top: 1px solid var(--blue-300);
+        padding-top: 10px;
+
+        .button {
+            button {
+                height: 60px;
+            }
+        }
+    }
+}
